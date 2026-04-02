@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "entries": {
+    "architecture-firm": {
+      "workspaceId": "architecture-firm",
+      "repoPath": "C:\\Projects\\agent-batches\\architecture-firm"
+    },
+    "auto-workshop": {
+      "workspaceId": "auto-workshop",
+      "repoPath": "C:\\Projects\\agent-batches\\auto-workshop"
+    },
+    "bakery-cake-shop": {
+      "workspaceId": "bakery-cake-shop",
+      "repoPath": "C:\\Projects\\agent-batches\\bakery-cake-shop"
+    },
+    "barber-shop": {
+      "workspaceId": "barber-shop",
+      "repoPath": "C:\\Projects\\agent-batches\\barber-shop"
+    },
+    "boutique-hotel": {
+      "workspaceId": "boutique-hotel",
+      "repoPath": "C:\\Projects\\agent-batches\\boutique-hotel"
+    },
+    "business-coach": {
+      "workspaceId": "business-coach",
+      "repoPath": "C:\\Projects\\agent-batches\\business-coach"
+    },
+    "ca-accounting": {
+      "workspaceId": "ca-accounting",
+      "repoPath": "C:\\Projects\\agent-batches\\ca-accounting"
+    },
+    "cafe-casual-restaurant": {
+      "workspaceId": "cafe-casual-restaurant",
+      "repoPath": "C:\\Projects\\agent-batches\\cafe-casual-restaurant"
+    },
+    "car-dealer": {
+      "workspaceId": "car-dealer",
+      "repoPath": "C:\\Projects\\agent-batches\\car-dealer"
+    },
+    "cleaning-services": {
+      "workspaceId": "cleaning-services",
+      "repoPath": "C:\\Projects\\agent-batches\\cleaning-services"
+    },
+    "clothing-boutique": {
+      "workspaceId": "clothing-boutique",
+      "repoPath": "C:\\Projects\\agent-batches\\clothing-boutique"
+    },
+    "coaching-institute": {
+      "workspaceId": "coaching-institute",
+      "repoPath": "C:\\Projects\\agent-batches\\coaching-institute"
+    },
+    "construction-company": {
+      "workspaceId": "construction-company",
+      "repoPath": "C:\\Projects\\agent-batches\\construction-company"
+    },
+    "coworking-space": {
+      "workspaceId": "coworking-space",
+      "repoPath": "C:\\Projects\\agent-batches\\coworking-space"
+    },
+    "dairy-food-production": {
+      "workspaceId": "dairy-food-production",
+      "repoPath": "C:\\Projects\\agent-batches\\dairy-food-production"
+    },
+    "dental-medical-clinic": {
+      "workspaceId": "dental-medical-clinic",
+      "repoPath": "C:\\Projects\\agent-batches\\dental-medical-clinic"
+    },
+    "design-studio": {
+      "workspaceId": "design-studio",
+      "repoPath": "C:\\Projects\\agent-batches\\design-studio"
+    },
+    "ecommerce-general": {
+      "workspaceId": "ecommerce-general",
+      "repoPath": "C:\\Projects\\agent-batches\\ecommerce-general"
+    },
+    "electronics-store": {
+      "workspaceId": "electronics-store",
+      "repoPath": "C:\\Projects\\agent-batches\\electronics-store"
+    },
+    "event-planner": {
+      "workspaceId": "event-planner",
+      "repoPath": "C:\\Projects\\agent-batches\\event-planner"
+    },
+    "fashion-brand": {
+      "workspaceId": "fashion-brand",
+      "repoPath": "C:\\Projects\\agent-batches\\fashion-brand"
+    },
+    "fashion-jewelry": {
+      "workspaceId": "fashion-jewelry",
+      "repoPath": "C:\\Projects\\agent-batches\\fashion-jewelry"
+    },
+    "fine-dining-restaurant": {
+      "workspaceId": "fine-dining-restaurant",
+      "repoPath": "C:\\Projects\\agent-batches\\fine-dining-restaurant"
+    },
+    "furniture-store": {
+      "workspaceId": "furniture-store",
+      "repoPath": "C:\\Projects\\agent-batches\\furniture-store"
+    },
+    "gym-fitness": {
+      "workspaceId": "gym-fitness",
+      "repoPath": "C:\\Projects\\agent-batches\\gym-fitness"
+    },
+    "hair-beauty-salon": {
+      "workspaceId": "hair-beauty-salon",
+      "repoPath": "C:\\Projects\\agent-batches\\hair-beauty-salon"
+    },
+    "health-food-organic": {
+      "workspaceId": "health-food-organic",
+      "repoPath": "C:\\Projects\\agent-batches\\health-food-organic"
+    },
+    "home-decor-shop": {
+      "workspaceId": "home-decor-shop",
+      "repoPath": "C:\\Projects\\agent-batches\\home-decor-shop"
+    },
+    "hostel-budget": {
+      "workspaceId": "hostel-budget",
+      "repoPath": "C:\\Projects\\agent-batches\\hostel-budget"
+    },
+    "hotel-chain": {
+      "workspaceId": "hotel-chain",
+      "repoPath": "C:\\Projects\\agent-batches\\hotel-chain"
+    },
+    "jewelry-store": {
+      "workspaceId": "jewelry-store",
+      "repoPath": "C:\\Projects\\agent-batches\\jewelry-store"
+    },
+    "law-firm": {
+      "workspaceId": "law-firm",
+      "repoPath": "C:\\Projects\\agent-batches\\law-firm"
+    },
+    "life-wellness-coach": {
+      "workspaceId": "life-wellness-coach",
+      "repoPath": "C:\\Projects\\agent-batches\\life-wellness-coach"
+    },
+    "makeup-artist": {
+      "workspaceId": "makeup-artist",
+      "repoPath": "C:\\Projects\\agent-batches\\makeup-artist"
+    },
+    "manufacturing-b2b": {
+      "workspaceId": "manufacturing-b2b",
+      "repoPath": "C:\\Projects\\agent-batches\\manufacturing-b2b"
+    },
+    "organic-farm": {
+      "workspaceId": "organic-farm",
+      "repoPath": "C:\\Projects\\agent-batches\\organic-farm"
+    },
+    "pest-control": {
+      "workspaceId": "pest-control",
+      "repoPath": "C:\\Projects\\agent-batches\\pest-control"
+    },
+    "pet-store-vet": {
+      "workspaceId": "pet-store-vet",
+      "repoPath": "C:\\Projects\\agent-batches\\pet-store-vet"
+    },
+    "photography-studio": {
+      "workspaceId": "photography-studio",
+      "repoPath": "C:\\Projects\\agent-batches\\photography-studio"
+    },
+    "real-estate-agent": {
+      "workspaceId": "real-estate-agent",
+      "repoPath": "C:\\Projects\\agent-batches\\real-estate-agent"
+    },
+    "real-estate-developer": {
+      "workspaceId": "real-estate-developer",
+      "repoPath": "C:\\Projects\\agent-batches\\real-estate-developer"
+    },
+    "resort-villa": {
+      "workspaceId": "resort-villa",
+      "repoPath": "C:\\Projects\\agent-batches\\resort-villa"
+    },
+    "saas-product": {
+      "workspaceId": "saas-product",
+      "repoPath": "C:\\Projects\\agent-batches\\saas-product"
+    },
+    "school-education": {
+      "workspaceId": "school-education",
+      "repoPath": "C:\\Projects\\agent-batches\\school-education"
+    },
+    "spa-wellness": {
+      "workspaceId": "spa-wellness",
+      "repoPath": "C:\\Projects\\agent-batches\\spa-wellness"
+    },
+    "tattoo-studio": {
+      "workspaceId": "tattoo-studio",
+      "repoPath": "C:\\Projects\\agent-batches\\tattoo-studio"
+    },
+    "tech-agency": {
+      "workspaceId": "tech-agency",
+      "repoPath": "C:\\Projects\\agent-batches\\tech-agency"
+    },
+    "veterinary-clinic": {
+      "workspaceId": "veterinary-clinic",
+      "repoPath": "C:\\Projects\\agent-batches\\veterinary-clinic"
+    },
+    "wedding-venue": {
+      "workspaceId": "wedding-venue",
+      "repoPath": "C:\\Projects\\agent-batches\\wedding-venue"
+    },
+    "yoga-studio": {
+      "workspaceId": "yoga-studio",
+      "repoPath": "C:\\Projects\\agent-batches\\yoga-studio"
+    }
+  },
+  "repoPathToId": {
+    "C:\\Projects\\agent-batches\\architecture-firm": "architecture-firm",
+    "C:\\Projects\\agent-batches\\auto-workshop": "auto-workshop",
+    "C:\\Projects\\agent-batches\\bakery-cake-shop": "bakery-cake-shop",
+    "C:\\Projects\\agent-batches\\barber-shop": "barber-shop",
+    "C:\\Projects\\agent-batches\\boutique-hotel": "boutique-hotel",
+    "C:\\Projects\\agent-batches\\business-coach": "business-coach",
+    "C:\\Projects\\agent-batches\\ca-accounting": "ca-accounting",
+    "C:\\Projects\\agent-batches\\cafe-casual-restaurant": "cafe-casual-restaurant",
+    "C:\\Projects\\agent-batches\\car-dealer": "car-dealer",
+    "C:\\Projects\\agent-batches\\cleaning-services": "cleaning-services",
+    "C:\\Projects\\agent-batches\\clothing-boutique": "clothing-boutique",
+    "C:\\Projects\\agent-batches\\coaching-institute": "coaching-institute",
+    "C:\\Projects\\agent-batches\\construction-company": "construction-company",
+    "C:\\Projects\\agent-batches\\coworking-space": "coworking-space",
+    "C:\\Projects\\agent-batches\\dairy-food-production": "dairy-food-production",
+    "C:\\Projects\\agent-batches\\dental-medical-clinic": "dental-medical-clinic",
+    "C:\\Projects\\agent-batches\\design-studio": "design-studio",
+    "C:\\Projects\\agent-batches\\ecommerce-general": "ecommerce-general",
+    "C:\\Projects\\agent-batches\\electronics-store": "electronics-store",
+    "C:\\Projects\\agent-batches\\event-planner": "event-planner",
+    "C:\\Projects\\agent-batches\\fashion-brand": "fashion-brand",
+    "C:\\Projects\\agent-batches\\fashion-jewelry": "fashion-jewelry",
+    "C:\\Projects\\agent-batches\\fine-dining-restaurant": "fine-dining-restaurant",
+    "C:\\Projects\\agent-batches\\furniture-store": "furniture-store",
+    "C:\\Projects\\agent-batches\\gym-fitness": "gym-fitness",
+    "C:\\Projects\\agent-batches\\hair-beauty-salon": "hair-beauty-salon",
+    "C:\\Projects\\agent-batches\\health-food-organic": "health-food-organic",
+    "C:\\Projects\\agent-batches\\home-decor-shop": "home-decor-shop",
+    "C:\\Projects\\agent-batches\\hostel-budget": "hostel-budget",
+    "C:\\Projects\\agent-batches\\hotel-chain": "hotel-chain",
+    "C:\\Projects\\agent-batches\\jewelry-store": "jewelry-store",
+    "C:\\Projects\\agent-batches\\law-firm": "law-firm",
+    "C:\\Projects\\agent-batches\\life-wellness-coach": "life-wellness-coach",
+    "C:\\Projects\\agent-batches\\makeup-artist": "makeup-artist",
+    "C:\\Projects\\agent-batches\\manufacturing-b2b": "manufacturing-b2b",
+    "C:\\Projects\\agent-batches\\organic-farm": "organic-farm",
+    "C:\\Projects\\agent-batches\\pest-control": "pest-control",
+    "C:\\Projects\\agent-batches\\pet-store-vet": "pet-store-vet",
+    "C:\\Projects\\agent-batches\\photography-studio": "photography-studio",
+    "C:\\Projects\\agent-batches\\real-estate-agent": "real-estate-agent",
+    "C:\\Projects\\agent-batches\\real-estate-developer": "real-estate-developer",
+    "C:\\Projects\\agent-batches\\resort-villa": "resort-villa",
+    "C:\\Projects\\agent-batches\\saas-product": "saas-product",
+    "C:\\Projects\\agent-batches\\school-education": "school-education",
+    "C:\\Projects\\agent-batches\\spa-wellness": "spa-wellness",
+    "C:\\Projects\\agent-batches\\tattoo-studio": "tattoo-studio",
+    "C:\\Projects\\agent-batches\\tech-agency": "tech-agency",
+    "C:\\Projects\\agent-batches\\veterinary-clinic": "veterinary-clinic",
+    "C:\\Projects\\agent-batches\\wedding-venue": "wedding-venue",
+    "C:\\Projects\\agent-batches\\yoga-studio": "yoga-studio"
+  }
+}

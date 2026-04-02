@@ -1,0 +1,1 @@
+const fs=require("fs");fs.mkdirSync("design-studio/app",{recursive:true});fs.writeFileSync("design-studio/app/page.tsx","test");console.log("ok")

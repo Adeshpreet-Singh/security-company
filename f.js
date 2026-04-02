@@ -1,0 +1,1 @@
+const fs=require("fs");fs.mkdirSync("furniture-store/app",{recursive:true});fs.writeFileSync("furniture-store/app/page.tsx",require("fs").readFileSync("f_content.txt","utf8"));console.log("ok")

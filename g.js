@@ -1,1 +1,0 @@
-const fs=require("fs");fs.mkdirSync("gym-fitness/app",{recursive:true});fs.writeFileSync("gym-fitness/app/page.tsx",require("fs").readFileSync("g.txt","utf8"));console.log("ok")

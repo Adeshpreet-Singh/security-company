@@ -1,1 +1,0 @@
-const fs=require("fs");const[p,c]=process.argv.slice(2);fs.mkdirSync(p.replace(/[^\\\\/]+$/,""),{recursive:true});fs.writeFileSync(p,c);console.log("Written:"+p)

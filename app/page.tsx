@@ -7,217 +7,98 @@ export default function Home() {
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+    if (element) { element.scrollIntoView({ behavior: 'smooth' }); element.focus(); }
     setMenuOpen(false);
   };
 
   const services = [
-    { title: 'Security Guards', desc: 'Professional on-site security personnel', icon: '\uD83D\uDC6E', price: 'From $25/hr' },
-    { title: 'Mobile Patrol', desc: 'Regular patrol of your property', icon: '\uD83D\uDE93', price: 'From $500/mo' },
-    { title: 'Alarm Systems', desc: 'Installation and monitoring', icon: '\uD83D\uDD14', price: 'From $99' },
-    { title: 'Access Control', desc: 'Entry management systems', icon: '\uD83D\uDD11', price: 'Free Quote' },
+    { title: 'Armed Guards', desc: 'Licensed armed security for high-risk environments', icon: '\uD83D\uDEE1\uFE0F' },
+    { title: 'Unarmed Security', desc: 'Professional presence for events and properties', icon: '\uD83E\uDDD1\u200D\uD83D\uDCBC' },
+    { title: 'Mobile Patrol', desc: '24/7 vehicle patrols and rapid response', icon: '\uD83D\uDE93' },
+    { title: 'Surveillance', desc: 'CCTV monitoring and alarm response', icon: '\uD83D\uDCF9' },
   ];
 
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
-      {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-md border-b border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl">
-              SS
-            </div>
-            <div>
-              <h1 className="text-lg font-bold text-white">SecureShield</h1>
-              <p className="text-[9px] text-blue-400 tracking-wider">SECURITY SERVICES</p>
-            </div>
-          </div>
-          <div className="hidden md:flex items-center gap-8">
-            {['Services', 'About', 'Contact'].map((item) => (
-              <button
-                key={item}
-                onClick={() => scrollToSection(item.toLowerCase())}
-                className="text-sm text-gray-400 hover:text-blue-400 transition-colors"
-              >
-                {item}
-              </button>
-            ))}
-            <button className="bg-blue-600 text-white px-6 py-2.5 rounded text-sm font-medium hover:bg-blue-700 transition-colors">
-              Get Quote
-            </button>
-          </div>
-          <button className="md:hidden text-blue-400" onClick={() => setMenuOpen(!menuOpen)}>
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              {menuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              )}
-            </svg>
-          </button>
-        </div>
-        {menuOpen && (
-          <div className="md:hidden bg-gray-800/95 p-6">
-            {['Services', 'About', 'Contact'].map((item) => (
-              <button
-                key={item}
-                onClick={() => scrollToSection(item.toLowerCase())}
-                className="block w-full text-left py-3 text-gray-400 hover:text-blue-400 transition-colors"
-              >
-                {item}
-              </button>
-            ))}
-            <button className="w-full mt-4 bg-blue-600 text-white py-3 font-medium">
-              Get Quote
-            </button>
-          </div>
-        )}
-      </nav>
-
-      {/* Hero */}
-      <section className="pt-16 min-h-screen flex items-center relative overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1400&q=80"
-            alt="Security"
-            className="w-full h-full object-cover opacity-30"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/90 to-gray-900/50" />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-6 py-20">
-          <div className="max-w-2xl">
-            <p className="text-blue-400 text-sm tracking-[0.3em] uppercase mb-6">Professional Security Solutions</p>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Protecting What
-              <br />
-              <span className="text-blue-400">Matters Most</span>
-            </h1>
-            <p className="text-xl text-gray-400 mb-8 max-w-lg">
-              24/7 security services for businesses and residential properties. 
-              Licensed, trained, and ready to protect your assets.
-            </p>
-            <div className="flex flex-wrap gap-4 mb-12">
-              <button className="bg-blue-600 text-white px-8 py-4 text-sm tracking-wider font-medium hover:bg-blue-700 transition-colors">
-                REQUEST QUOTE
-              </button>
-              <button className="border border-gray-600 text-gray-300 px-8 py-4 text-sm tracking-wider hover:border-blue-500 hover:text-blue-400 transition-colors">
-                CALL NOW
-              </button>
-            </div>
-            <div className="grid grid-cols-4 gap-6">
-              {[
-                { num: '20+', label: 'Years' },
-                { num: '500+', label: 'Clients' },
-                { num: '24/7', label: 'Monitoring' },
-                { num: '100%', label: 'Licensed' },
-              ].map((stat, i) => (
-                <div key={i} className="border-l-2 border-blue-500 pl-4">
-                  <div className="text-2xl font-bold text-white">{stat.num}</div>
-                  <div className="text-sm text-gray-500">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Services */}
-      <section id="services" className="py-24 bg-gray-800/50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <p className="text-blue-400 text-sm font-medium mb-4">WHAT WE OFFER</p>
-            <h2 className="text-4xl font-bold text-white">Security Services</h2>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service, i) => (
-              <div key={i} className="bg-gray-800 border border-gray-700 rounded-xl p-6 hover:border-blue-500/50 transition-colors group">
-                <div className="text-4xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">{service.title}</h3>
-                <p className="text-gray-400 text-sm mb-4">{service.desc}</p>
-                <div className="text-blue-400 font-bold">{service.price}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* About */}
-      <section id="about" className="py-24">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <p className="text-blue-400 text-sm font-medium mb-4">ABOUT US</p>
-              <h2 className="text-4xl font-bold text-white mb-6">Your Trusted Security Partner</h2>
-              <p className="text-gray-400 leading-relaxed mb-8">
-                SecureShield has been providing professional security services for over 20 years. 
-                Our team of trained professionals is dedicated to protecting your property and 
-                ensuring your peace of mind.
-              </p>
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  { label: 'Licensed & Insured' },
-                  { label: 'Background Checked' },
-                  { label: '24/7 Availability' },
-                  { label: 'Rapid Response' },
-                ].map((item, i) => (
-                  <div key={i} className="flex items-center gap-3 bg-gray-800/50 rounded-lg p-3">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full" />
-                    <span className="text-gray-300 text-sm">{item.label}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80"
-                alt="Security Team"
-                className="w-full rounded-2xl"
-              />
-              <div className="absolute -bottom-4 -left-4 bg-blue-600 text-white rounded-xl px-6 py-4 shadow-xl">
-                <div className="text-sm">Always</div>
-                <div className="text-3xl font-bold">24/7</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section id="contact" className="py-24 bg-blue-600">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold text-white mb-4">Get Protected Today</h2>
-          <p className="text-blue-100 mb-8 max-w-xl mx-auto">
-            Don't wait until it's too late. Contact us for a free security assessment.
-          </p>
-          <a href="tel:5551234567" className="inline-flex items-center gap-3 bg-white text-blue-600 px-8 py-4 rounded text-xl font-bold hover:shadow-xl transition-all">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-            (555) 123-SAFE
-          </a>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="py-12 border-t border-gray-800">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+    <div className="bg-slate-950 text-white min-h-screen">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-red-600 text-white px-4 py-2 rounded-lg z-[100] focus-visible:outline-2 focus-visible:outline-white font-bold">Skip to main content</a>
+      <header>
+        <nav role="navigation" aria-label="Main navigation" className="fixed top-0 left-0 right-0 z-50 bg-slate-950/95 backdrop-blur-md border-b border-slate-800">
+          <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-sm">
-                SS
-              </div>
-              <span className="text-gray-400">SecureShield Security</span>
+              <div className="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center text-white text-xl" aria-hidden="true">\uD83D\uDEE1\uFE0F</div>
+              <div><h1 className="text-lg font-bold text-white">Sentinel</h1><p className="text-[9px] text-red-400 tracking-wider">SECURITY SERVICES</p></div>
             </div>
-            <div className="flex gap-6 text-gray-500 text-sm">
-              <span>Licensed & Insured</span>
-              <span>\u00B7</span>
-              <span>24/7 Service</span>
+            <div className="hidden md:flex items-center gap-8">
+              {['Services','Industries','About','Contact'].map(item => (<button key={item} onClick={() => scrollToSection(item.toLowerCase())} aria-label={`Navigate to ${item} section`} className="text-sm text-slate-400 hover:text-white transition-colors focus-visible:outline-2 focus-visible:outline-red-500 focus-visible:outline-offset-2 rounded">{item}</button>))}
+              <button aria-label="Get a security quote" className="bg-red-600 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-red-700 transition-colors focus-visible:outline-2 focus-visible:outline-red-500 focus-visible:outline-offset-2">Get Quote</button>
+            </div>
+            <button aria-label={menuOpen?"Close menu":"Open menu"} aria-expanded={menuOpen} className="md:hidden text-red-400 focus-visible:outline-2 focus-visible:outline-red-500 rounded" onClick={() => setMenuOpen(!menuOpen)}>
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">{menuOpen?<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/>:<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16"/>}</svg>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <main id="main-content" role="main">
+        <section aria-labelledby="hero-heading" className="pt-24 pb-16 relative overflow-hidden min-h-screen flex items-center">
+          <div className="absolute inset-0" aria-hidden="true"><div className="absolute top-1/4 left-1/4 w-96 h-96 bg-red-600/10 rounded-full blur-3xl"/></div>
+          <div className="relative max-w-7xl mx-auto px-6">
+            <div className="max-w-3xl">
+              <p className="text-red-400 text-sm font-bold tracking-widest mb-4">PROTECTION YOU CAN TRUST</p>
+              <h2 id="hero-heading" className="text-6xl md:text-7xl font-bold mb-6 leading-none">YOUR SAFETY,<br/><span className="text-red-500">OUR MISSION</span></h2>
+              <p className="text-xl text-slate-400 mb-8 max-w-xl">Licensed, bonded, and insured security professionals. 24/7 protection for businesses, events, and residential properties across the region.</p>
+              <div className="flex flex-wrap gap-4 mb-10">
+                <button aria-label="Request a free security assessment" className="bg-red-600 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-red-700 transition-all hover:scale-105 focus-visible:outline-2 focus-visible:outline-red-500 focus-visible:outline-offset-2">Free Assessment</button>
+                <button aria-label="Call our 24/7 hotline" className="border-2 border-red-500 text-red-400 px-8 py-4 rounded-full text-lg font-bold hover:bg-red-500/10 transition-all hover:scale-105 focus-visible:outline-2 focus-visible:outline-red-500 focus-visible:outline-offset-2">24/7 Hotline</button>
+              </div>
+              <div className="flex items-center gap-8">
+                {[{num:'500+',label:'Clients Protected'},{num:'24/7',label:'Response Time'},{num:'15+',label:'Years Experience'}].map((s,i) => (<div key={i}><div className="text-2xl font-bold text-red-500">{s.num}</div><div className="text-sm text-slate-500">{s.label}</div></div>))}
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
+        </section>
+        <section id="services" aria-labelledby="services-heading" className="py-24 bg-slate-900">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="text-center mb-16"><p className="text-red-400 text-sm font-bold tracking-widest mb-4">WHAT WE OFFER</p><h2 id="services-heading" className="text-4xl font-bold text-white mb-4">Security Services</h2></div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {services.map((s,i) => (<article key={i} className="bg-slate-950 border border-slate-800 rounded-2xl p-6 hover:border-red-500 transition-all hover:scale-[1.02]"><div className="text-4xl mb-4" aria-hidden="true">{s.icon}</div><h3 className="text-xl font-bold text-white mb-2">{s.title}</h3><p className="text-slate-400 text-sm">{s.desc}</p></article>))}
+            </div>
+          </div>
+        </section>
+        <section id="industries" aria-labelledby="industries-heading" className="py-24">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="text-center mb-16"><p className="text-red-400 text-sm font-bold tracking-widest mb-4">SERVING</p><h2 id="industries-heading" className="text-4xl font-bold text-white mb-4">Industries We Protect</h2></div>
+            <div className="grid md:grid-cols-4 gap-6">
+              {['Commercial','Residential','Events','Healthcare'].map((ind,i) => (<div key={i} className="bg-slate-900 rounded-2xl p-6 text-center hover:ring-2 hover:ring-red-500 transition-all"><h3 className="text-lg font-bold text-white">{ind}</h3></div>))}
+            </div>
+          </div>
+        </section>
+        <section id="about" aria-labelledby="about-heading" className="py-24 bg-slate-900">
+          <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="text-red-400 text-sm font-bold tracking-widest mb-4">ABOUT US</p>
+              <h2 id="about-heading" className="text-4xl font-bold text-white mb-6">Trusted Protection Since 2009</h2>
+              <p className="text-slate-400 leading-relaxed mb-8">Sentinel Security was founded by former law enforcement professionals with a mission to provide reliable, professional security services. All guards are background-checked, licensed, and undergo continuous training.</p>
+              <div className="grid grid-cols-2 gap-4">
+                {[{icon:'\u2705',label:'Licensed & Bonded'},{icon:'\uD83D\uDD12',label:'Background Checked'},{icon:'\uD83C\uDF96\uFE0F',label:'Continuously Trained'},{icon:'\uD83D\uDEA8',label:'Rapid Response'}].map((item,i) => (<div key={i} className="flex items-center gap-3 bg-slate-950 rounded-xl p-4 border border-slate-800"><span className="text-2xl" aria-hidden="true">{item.icon}</span><span className="text-slate-300 text-sm">{item.label}</span></div>))}
+              </div>
+            </div>
+            <div><img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80" alt="Professional security guard monitoring surveillance screens" className="w-full rounded-2xl"/></div>
+          </div>
+        </section>
+        <section id="contact" aria-labelledby="contact-heading" className="py-24">
+          <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div><p className="text-red-400 text-sm font-bold tracking-widest mb-4">GET PROTECTED</p><h2 id="contact-heading" className="text-4xl font-bold text-white mb-6">Request a Security Assessment</h2><p className="text-slate-400 mb-8">Our security consultants will assess your needs and design a custom protection plan.</p></div>
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8">
+              <form noValidate className="space-y-6">
+                <div><label htmlFor="name" className="block text-sm font-medium text-slate-300 mb-2">Your Name</label><input id="name" type="text" aria-required="true" placeholder="John Protected" className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-red-500 focus:ring-2 focus:ring-red-500/20 focus:outline-none transition-colors"/></div>
+                <div><label htmlFor="type" className="block text-sm font-medium text-slate-300 mb-2">Security Type</label><select id="type" className="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-white focus:border-red-500 focus:ring-2 focus:ring-red-500/20 focus:outline-none transition-colors"><option value="">Select type</option><option value="armed">Armed Guards</option><option value="unarmed">Unarmed Security</option><option value="patrol">Mobile Patrol</option><option value="surveillance">Surveillance</option></select></div>
+                <button type="submit" aria-label="Request your security assessment" className="w-full bg-red-600 text-white py-4 rounded-xl font-bold hover:bg-red-700 transition-all hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-red-500 focus-visible:outline-offset-2">Request Assessment</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer role="contentinfo" className="py-12 bg-slate-950 border-t border-slate-800"><div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6"><div className="flex items-center gap-3"><div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center text-white" aria-hidden="true">\uD83D\uDEE1\uFE0F</div><span className="text-white font-bold">Sentinel Security Services</span></div><p className="text-slate-500 text-sm">Protecting what matters since 2009</p></div></footer>
     </div>
   );
 }

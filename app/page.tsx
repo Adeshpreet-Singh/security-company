@@ -76,18 +76,9 @@ you can count on.
               </div>
             </div>
             <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg">
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-red-500">24/7</div>
-              <div className="text-sm text-gray-400 mt-1">Monitoring</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-red-500">Licensed</div>
-              <div className="text-sm text-gray-400 mt-1">In 50 states</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-red-500">15+</div>
-              <div className="text-sm text-gray-400 mt-1">Years</div>
-            </div>
+            <div className="text-center"><div className="text-3xl md:text-4xl font-bold text-red-500">24/7</div><div className="text-sm text-gray-400 mt-1">Monitoring</div></div>
+            <div className="text-center"><div className="text-3xl md:text-4xl font-bold text-red-500">Licensed</div><div className="text-sm text-gray-400 mt-1">In 50 states</div></div>
+            <div className="text-center"><div className="text-3xl md:text-4xl font-bold text-red-500">15+</div><div className="text-sm text-gray-400 mt-1">Years</div></div>
             </div>
           </div>
         </section>
@@ -99,36 +90,30 @@ you can count on.
               <h2 id="services-heading" className="text-4xl md:text-5xl font-bold">Our Services</h2>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-4xl mb-4" aria-hidden="true">🛡️</div>
+            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl mb-4">🛡️</div>
               <h3 className="text-xl font-bold mb-3 text-gray-100">Guard Services</h3>
-              <p className="text-gray-400 leading-relaxed">Armed and unarmed officers.</p>
-            </article>
-            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-4xl mb-4" aria-hidden="true">🔐</div>
+              <p className="text-gray-400 leading-relaxed">Armed and unarmed officers.</p></article>
+            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl mb-4">🔐</div>
               <h3 className="text-xl font-bold mb-3 text-gray-100">Access Control</h3>
-              <p className="text-gray-400 leading-relaxed">Card readers, biometrics, gates.</p>
-            </article>
-            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-4xl mb-4" aria-hidden="true">📹</div>
+              <p className="text-gray-400 leading-relaxed">Card readers, biometrics, gates.</p></article>
+            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl mb-4">📹</div>
               <h3 className="text-xl font-bold mb-3 text-gray-100">Video Surveillance</h3>
-              <p className="text-gray-400 leading-relaxed">CCTV and remote monitoring.</p>
-            </article>
-            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-4xl mb-4" aria-hidden="true">👤</div>
+              <p className="text-gray-400 leading-relaxed">CCTV and remote monitoring.</p></article>
+            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl mb-4">👤</div>
               <h3 className="text-xl font-bold mb-3 text-gray-100">Executive Protection</h3>
-              <p className="text-gray-400 leading-relaxed">Personal security details.</p>
-            </article>
-            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-4xl mb-4" aria-hidden="true">🎪</div>
+              <p className="text-gray-400 leading-relaxed">Personal security details.</p></article>
+            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl mb-4">🎪</div>
               <h3 className="text-xl font-bold mb-3 text-gray-100">Event Security</h3>
-              <p className="text-gray-400 leading-relaxed">Concerts, galas, conferences.</p>
-            </article>
-            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 group">
-              <div className="text-4xl mb-4" aria-hidden="true">📋</div>
+              <p className="text-gray-400 leading-relaxed">Concerts, galas, conferences.</p></article>
+            <article className="bg-gray-900 border border-gray-800 rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+              <div className="text-4xl mb-4">📋</div>
               <h3 className="text-xl font-bold mb-3 text-gray-100">Consulting</h3>
-              <p className="text-gray-400 leading-relaxed">Security assessments and planning.</p>
-            </article>
+              <p className="text-gray-400 leading-relaxed">Security assessments and planning.</p></article>
             </div>
           </div>
         </section>
@@ -142,28 +127,16 @@ you can count on.
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6 text-center">
               <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-red-500/20 flex items-center justify-center text-2xl font-bold text-red-500">MT</div>
-              <h3 className="font-bold text-gray-100">Michael Torres</h3>
-              <p className="text-sm text-red-500">CEO</p>
-              <p className="text-sm text-gray-400 mt-1">Former Secret Service</p>
-            </div>
+              <h3 className="font-bold text-gray-100">Michael Torres</h3><p className="text-sm text-red-500">CEO</p><p className="text-sm text-gray-400 mt-1">Former Secret Service</p></div>
             <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6 text-center">
               <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-red-500/20 flex items-center justify-center text-2xl font-bold text-red-500">SC</div>
-              <h3 className="font-bold text-gray-100">Sarah Chen</h3>
-              <p className="text-sm text-red-500">Operations Director</p>
-              <p className="text-sm text-gray-400 mt-1">Military veteran</p>
-            </div>
+              <h3 className="font-bold text-gray-100">Sarah Chen</h3><p className="text-sm text-red-500">Operations Director</p><p className="text-sm text-gray-400 mt-1">Military veteran</p></div>
             <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6 text-center">
               <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-red-500/20 flex items-center justify-center text-2xl font-bold text-red-500">DK</div>
-              <h3 className="font-bold text-gray-100">David Kim</h3>
-              <p className="text-sm text-red-500">Tech Director</p>
-              <p className="text-sm text-gray-400 mt-1">Cybersecurity expert</p>
-            </div>
+              <h3 className="font-bold text-gray-100">David Kim</h3><p className="text-sm text-red-500">Tech Director</p><p className="text-sm text-gray-400 mt-1">Cybersecurity expert</p></div>
             <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6 text-center">
               <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-red-500/20 flex items-center justify-center text-2xl font-bold text-red-500">MG</div>
-              <h3 className="font-bold text-gray-100">Maria Garcia</h3>
-              <p className="text-sm text-red-500">Client Relations</p>
-              <p className="text-sm text-gray-400 mt-1">Security consultant</p>
-            </div>
+              <h3 className="font-bold text-gray-100">Maria Garcia</h3><p className="text-sm text-red-500">Client Relations</p><p className="text-sm text-gray-400 mt-1">Security consultant</p></div>
             </div>
           </div>
         </section>
@@ -176,26 +149,14 @@ you can count on.
             </div>
             <div className="space-y-4">
             <details className="group border border-current/10 rounded-xl p-5 cursor-pointer">
-              <summary className="font-medium flex justify-between items-center list-none text-gray-100">
-                Armed guards?
-                <span className="ml-4 text-gray-400 group-open:rotate-45 transition-transform text-xl">+</span>
-              </summary>
-              <p className="mt-3 text-gray-400 text-sm leading-relaxed">Yes, all armed guards are licensed and background-checked.</p>
-            </details>
+              <summary className="font-medium flex justify-between items-center list-none text-gray-100">Armed guards?<span className="ml-4 text-gray-400 group-open:rotate-45 transition-transform text-xl">+</span></summary>
+              <p className="mt-3 text-gray-400 text-sm leading-relaxed">Yes, all armed guards are licensed and background-checked.</p></details>
             <details className="group border border-current/10 rounded-xl p-5 cursor-pointer">
-              <summary className="font-medium flex justify-between items-center list-none text-gray-100">
-                Monitoring?
-                <span className="ml-4 text-gray-400 group-open:rotate-45 transition-transform text-xl">+</span>
-              </summary>
-              <p className="mt-3 text-gray-400 text-sm leading-relaxed">24/7 UL-listed monitoring center.</p>
-            </details>
+              <summary className="font-medium flex justify-between items-center list-none text-gray-100">Monitoring?<span className="ml-4 text-gray-400 group-open:rotate-45 transition-transform text-xl">+</span></summary>
+              <p className="mt-3 text-gray-400 text-sm leading-relaxed">24/7 UL-listed monitoring center.</p></details>
             <details className="group border border-current/10 rounded-xl p-5 cursor-pointer">
-              <summary className="font-medium flex justify-between items-center list-none text-gray-100">
-                Contracts?
-                <span className="ml-4 text-gray-400 group-open:rotate-45 transition-transform text-xl">+</span>
-              </summary>
-              <p className="mt-3 text-gray-400 text-sm leading-relaxed">Month-to-month available, no long-term required.</p>
-            </details>
+              <summary className="font-medium flex justify-between items-center list-none text-gray-100">Contracts?<span className="ml-4 text-gray-400 group-open:rotate-45 transition-transform text-xl">+</span></summary>
+              <p className="mt-3 text-gray-400 text-sm leading-relaxed">Month-to-month available, no long-term required.</p></details>
             </div>
           </div>
         </section>
@@ -207,18 +168,9 @@ you can count on.
                 <p className="text-red-500 text-sm tracking-widest uppercase mb-3">Get In Touch</p>
                 <h2 id="contact-heading" className="text-4xl md:text-5xl font-bold mb-6">Get Assessment</h2>
                 <div className="space-y-6 text-gray-400">
-                  <div>
-                    <div className="font-bold text-gray-100">Phone</div>
-                    <a href="tel:(555) 012-3459" className="hover:text-red-500 transition-colors">(555) 012-3459</a>
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-100">Address</div>
-                    <p className="whitespace-pre-line">500 Security Blvd, Dallas, TX</p>
-                  </div>
-                  <div>
-                    <div className="font-bold text-gray-100">Hours</div>
-                    <p>24/7 Operations Center</p>
-                  </div>
+                  <div><div className="font-bold text-gray-100">Phone</div><a href="tel:(555) 012-3459" className="hover:text-red-500">(555) 012-3459</a></div>
+                  <div><div className="font-bold text-gray-100">Address</div><p>500 Security Blvd, Dallas, TX</p></div>
+                  <div><div className="font-bold text-gray-100">Hours</div><p>24/7 Operations Center</p></div>
                 </div>
               </div>
               <div>

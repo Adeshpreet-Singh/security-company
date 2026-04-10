@@ -17,7 +17,7 @@ count on.`}</h2>
           <p className="text-xl opacity-70 max-w-xl mx-auto mb-10">{`Comprehensive security solutions for commercial properties, events, and executive protection.`}</p>
           <button onClick={() => scrollTo('contact')} className="px-8 py-4 text-lg rounded-full text-white font-bold" style={{background:'#ef4444'}}>Get Assessment</button>
         </section>
-        <section id="contact" className="py-24 text-center" style={{background:'#ef444422'}}>
+        <section id="contact" className="reveal py-24 text-center" style={{background:'#ef444422'}}>
           <h2 className="text-4xl font-bold mb-4">Contact Us</h2>
           <p className="opacity-70 mb-8">Get in touch today.</p>
           <a href="tel:(555) 000-0000" className="text-2xl font-bold" style={{color:'#ef4444'}}>(555) 000-0000</a>

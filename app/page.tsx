@@ -1,4 +1,4 @@
-/'use client';
+'use client';
 import { useState } from 'react';
 export default function Home() {
   const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });

@@ -189,7 +189,7 @@ export default function Home() {
             </button>
           ))}
         </div>
-        <button className="btn" onClick={() => scrollTo('contact')} className="btn">
+        <button onClick={() => scrollTo('contact')} className="btn btn">
           Get Quote
         </button>
       </nav>
@@ -211,10 +211,10 @@ export default function Home() {
                 count, you need a team that is already moving.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <button className="btn" onClick={() => scrollTo('plans')} className="btn">
+                <button onClick={() => scrollTo('plans')} className="btn btn">
                   View Plans
                 </button>
-                <button className="btn" onClick={() => scrollTo('contact')} className="btn-outline">
+                <button onClick={() => scrollTo('contact')} className="btn btn-outline">
                   Free Quote
                 </button>
               </div>

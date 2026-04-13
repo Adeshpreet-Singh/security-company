@@ -184,12 +184,12 @@ export default function Home() {
         </div>
         <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase font-medium" style={{ color: '#d1d5db' }}>
           {['services', 'plans', 'why-us', 'testimonials', 'faq', 'contact'].map((s) => (
-            <button className="btn" key={s} onClick={() => scrollTo(s)}>
+            <button style={{ cursor: "pointer" }} className="btn" key={s} onClick={() => scrollTo(s)}>
               {s}
             </button>
           ))}
         </div>
-        <button onClick={() => scrollTo('contact')} className="btn btn">
+        <button style={{ cursor: "pointer" }} onClick={() => scrollTo('contact')} className="btn btn">
           Get Quote
         </button>
       </nav>
@@ -211,10 +211,10 @@ export default function Home() {
                 count, you need a team that is already moving.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <button onClick={() => scrollTo('plans')} className="btn btn">
+                <button style={{ cursor: "pointer" }} onClick={() => scrollTo('plans')} className="btn btn">
                   View Plans
                 </button>
-                <button onClick={() => scrollTo('contact')} className="btn btn-outline">
+                <button style={{ cursor: "pointer" }} onClick={() => scrollTo('contact')} className="btn btn-outline">
                   Free Quote
                 </button>
               </div>
@@ -244,7 +244,7 @@ export default function Home() {
                 <p className="heading text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>
                   {s.val}
                 </p>
-                <p className="text-xs uppercase tracking-wider opacity-80 mt-2">{s.label}</p>
+                <p className="text-sm uppercase tracking-wider opacity-80 mt-2">{s.label}</p>
               </div>
             ))}
           </div>
@@ -320,7 +320,7 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <button
+                  <button style={{ cursor: "pointer" }}
                     className={`w-full py-3 rounded-lg font-bold text-sm ${p.featured ? 'btn' : 'btn-outline'}`}
                   >
                     {p.price === 'Custom' ? 'Contact Sales' : 'Get Started'}
@@ -395,7 +395,7 @@ export default function Home() {
                   </p>
                   <div>
                     <p className="heading font-bold text-sm">{t.name}</p>
-                    <p className="text-xs opacity-90">{t.location}</p>
+                    <p className="text-sm opacity-90">{t.location}</p>
                   </div>
                 </div>
               ))}
@@ -418,7 +418,7 @@ export default function Home() {
             <div className="space-y-4">
               {faqs.map((faq, i) => (
                 <div key={i} className="card" style={{ padding: 0 }}>
-                  <button
+                  <button style={{ cursor: "pointer" }}
                     className="w-full flex justify-between items-center px-6 py-5 text-left"
                     onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   >
@@ -501,24 +501,24 @@ export default function Home() {
                     type="text"
                     placeholder="Full Name"
                     required
-                    className="w-full border border-gray-300 "
+                    className="w-full border border-gray-300  border-2 border-current/20"
                   />
                   <input
                     type="tel"
                     placeholder="Phone Number"
                     required
-                    className="w-full border border-gray-300 "
+                    className="w-full border border-gray-300  border-2 border-current/20"
                   />
                   <input
                     type="email"
                     placeholder="Email Address"
                     required
-                    className="w-full border border-gray-300 "
+                    className="w-full border border-gray-300  border-2 border-current/20"
                   />
                   <input
                     type="text"
                     placeholder="Property Address"
-                    className="w-full border border-gray-300 "
+                    className="w-full border border-gray-300  border-2 border-current/20"
                   />
                   <select className="w-full p-3 border border-gray-300 rounded border border-gray-300 " defaultValue="">
                     <option value="" disabled>
@@ -543,7 +543,7 @@ export default function Home() {
                     rows={3}
                     className="w-full border border-gray-300 "
                   />
-                  <button type="submit" className="w-full btn py-4 text-base uppercase tracking-wider">
+                  <button style={{ cursor: "pointer" }} type="submit" className="w-full btn py-4 text-base uppercase tracking-wider">
                     Get Free Quote
                   </button>
                   <p className="text-sm opacity-80 text-center">
@@ -564,7 +564,7 @@ export default function Home() {
         <p className="heading text-sm font-bold mb-2" style={{ color: 'var(--accent)' }}>
           Sentinel Security Systems
         </p>
-        <p className="text-xs opacity-80 mb-1">Austin, Texas — Protecting Central Texas Since 2003</p>
+        <p className="text-sm opacity-80 mb-1">Austin, Texas — Protecting Central Texas Since 2003</p>
         <p className="text-sm opacity-80">
           © {new Date().getFullYear()} Sentinel Security Systems. All rights reserved. TX License #B-12345.
         </p>

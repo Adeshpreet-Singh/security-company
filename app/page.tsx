@@ -182,7 +182,7 @@ export default function Home() {
           </h1>
           <p className="text-[9px] tracking-[0.2em] uppercase opacity-70">Security Systems</p>
         </div>
-        <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase opacity-80">
+        <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase font-medium" style={{ color: '#d1d5db' }}>
           {['services', 'plans', 'why-us', 'testimonials', 'faq', 'contact'].map((s) => (
             <button key={s} onClick={() => scrollTo(s)}>
               {s}
@@ -543,7 +543,7 @@ export default function Home() {
                     rows={3}
                     className="w-full"
                   />
-                  <button type="submit" className="w-full btn py-4 text-sm uppercase tracking-wider">
+                  <button type="submit" className="w-full btn py-4 text-base uppercase tracking-wider">
                     Get Free Quote
                   </button>
                   <p className="text-[10px] opacity-30 text-center">

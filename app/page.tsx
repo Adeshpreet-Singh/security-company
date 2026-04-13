@@ -180,9 +180,9 @@ export default function Home() {
           <h1 className="heading text-xl font-bold" style={{ color: 'var(--accent)' }}>
             Sentinel
           </h1>
-          <p className="text-[9px] tracking-[0.2em] uppercase opacity-40">Security Systems</p>
+          <p className="text-[9px] tracking-[0.2em] uppercase opacity-70">Security Systems</p>
         </div>
-        <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase opacity-60">
+        <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase opacity-80">
           {['services', 'plans', 'why-us', 'testimonials', 'faq', 'contact'].map((s) => (
             <button key={s} onClick={() => scrollTo(s)}>
               {s}
@@ -205,7 +205,7 @@ export default function Home() {
                 <br />
                 <span style={{ color: 'var(--accent)' }}>Our mission.</span>
               </h2>
-              <p className="text-lg opacity-60 mb-10 leading-relaxed max-w-lg">
+              <p className="text-lg opacity-80 mb-10 leading-relaxed max-w-lg">
                 Professionally monitored security systems designed for homes and businesses.
                 We respond to every alarm in an average of 15 seconds — because when seconds
                 count, you need a team that is already moving.
@@ -244,7 +244,7 @@ export default function Home() {
                 <p className="heading text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>
                   {s.val}
                 </p>
-                <p className="text-xs uppercase tracking-wider opacity-50 mt-2">{s.label}</p>
+                <p className="text-xs uppercase tracking-wider opacity-80 mt-2">{s.label}</p>
               </div>
             ))}
           </div>
@@ -256,7 +256,7 @@ export default function Home() {
             <div className="text-center mb-16">
               <span className="badge">What We Offer</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">Comprehensive Security Services</h2>
-              <p className="text-sm opacity-40 mt-4 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-sm opacity-70 mt-4 max-w-2xl mx-auto leading-relaxed">
                 From a single-family home to a multi-building commercial campus, Sentinel delivers
                 end-to-end protection with industry-leading technology and human expertise.
               </p>
@@ -266,7 +266,7 @@ export default function Home() {
                 <div key={svc.title} className="card">
                   <span className="text-3xl mb-4 block">{svc.icon}</span>
                   <h3 className="heading text-lg font-bold mb-3">{svc.title}</h3>
-                  <p className="text-sm opacity-50 leading-relaxed">{svc.desc}</p>
+                  <p className="text-sm opacity-80 leading-relaxed">{svc.desc}</p>
                 </div>
               ))}
             </div>
@@ -279,7 +279,7 @@ export default function Home() {
             <div className="text-center mb-16">
               <span className="badge">Pricing</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">Security Plans</h2>
-              <p className="text-sm opacity-40 mt-4">
+              <p className="text-sm opacity-70 mt-4">
                 No contracts. Cancel anytime. Equipment included with every plan.
               </p>
             </div>
@@ -308,7 +308,7 @@ export default function Home() {
                   <h3 className="heading text-lg mb-1">{p.name}</h3>
                   <div className="flex items-baseline gap-1 mb-6">
                     <span className="heading text-5xl font-bold">{p.price}</span>
-                    <span className="text-sm opacity-40">{p.period}</span>
+                    <span className="text-sm opacity-70">{p.period}</span>
                   </div>
                   <ul className="space-y-3 mb-8 flex-1">
                     {p.features.map((f) => (
@@ -316,7 +316,7 @@ export default function Home() {
                         <span style={{ color: 'var(--accent)' }} className="mt-0.5">
                           ✓
                         </span>
-                        <span className="opacity-70">{f}</span>
+                        <span className="opacity-90">{f}</span>
                       </li>
                     ))}
                   </ul>
@@ -339,7 +339,7 @@ export default function Home() {
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">
                 Why Austin Trusts Us
               </h2>
-              <p className="text-sm opacity-40 mt-4 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-sm opacity-70 mt-4 max-w-2xl mx-auto leading-relaxed">
                 We are not a national call center. We are your neighbors — local operators,
                 local technicians, and a monitoring center built right here in Texas.
               </p>
@@ -370,7 +370,7 @@ export default function Home() {
                   />
                   <div>
                     <h3 className="heading text-xl font-bold mb-3">{item.title}</h3>
-                    <p className="text-sm opacity-50 leading-relaxed">{item.desc}</p>
+                    <p className="text-sm opacity-80 leading-relaxed">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -390,12 +390,12 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8">
               {testimonials.map((t) => (
                 <div key={t.name} className="card flex flex-col">
-                  <p className="text-sm opacity-60 leading-relaxed flex-1 italic mb-6">
+                  <p className="text-sm opacity-80 leading-relaxed flex-1 italic mb-6">
                     &ldquo;{t.quote}&rdquo;
                   </p>
                   <div>
                     <p className="heading font-bold text-sm">{t.name}</p>
-                    <p className="text-xs opacity-40">{t.location}</p>
+                    <p className="text-xs opacity-70">{t.location}</p>
                   </div>
                 </div>
               ))}
@@ -411,7 +411,7 @@ export default function Home() {
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">
                 Frequently Asked Questions
               </h2>
-              <p className="text-sm opacity-40 mt-4">
+              <p className="text-sm opacity-70 mt-4">
                 Everything you need to know before getting started.
               </p>
             </div>
@@ -435,7 +435,7 @@ export default function Home() {
                   </button>
                   {openFaq === i && (
                     <div className="px-6 pb-6">
-                      <p className="text-sm opacity-50 leading-relaxed">{faq.a}</p>
+                      <p className="text-sm opacity-80 leading-relaxed">{faq.a}</p>
                     </div>
                   )}
                 </div>
@@ -452,28 +452,28 @@ export default function Home() {
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6 mb-8">
                 Request a Free Quote
               </h2>
-              <p className="text-sm opacity-50 leading-relaxed mb-8">
+              <p className="text-sm opacity-80 leading-relaxed mb-8">
                 Tell us about your property and we will design a custom security plan — no
                 obligation, no pressure. Most quotes are delivered within 24 hours.
               </p>
               <div className="space-y-4 text-sm">
-                <div className="flex items-center gap-3 opacity-60">
+                <div className="flex items-center gap-3 opacity-80">
                   <span style={{ color: 'var(--accent)' }}>📍</span>
                   Serving the Greater Austin Metro Area
                 </div>
-                <div className="flex items-center gap-3 opacity-60">
+                <div className="flex items-center gap-3 opacity-80">
                   <span style={{ color: 'var(--accent)' }}>📞</span>
                   <a href="tel:(512)555-0199" style={{ color: 'var(--accent)' }}>
                     (512) 555-0199
                   </a>
                 </div>
-                <div className="flex items-center gap-3 opacity-60">
+                <div className="flex items-center gap-3 opacity-80">
                   <span style={{ color: 'var(--accent)' }}>📧</span>
                   <a href="mailto:info@sentinelsecurity.com" style={{ color: 'var(--accent)' }}>
                     info@sentinelsecurity.com
                   </a>
                 </div>
-                <div className="flex items-center gap-3 opacity-60">
+                <div className="flex items-center gap-3 opacity-80">
                   <span style={{ color: 'var(--accent)' }}>🕐</span>
                   Mon–Fri 8 AM – 8 PM, Sat 9 AM – 5 PM
                 </div>
@@ -484,7 +484,7 @@ export default function Home() {
                 <div className="card h-full flex flex-col items-center justify-center text-center">
                   <span className="text-5xl mb-4">✅</span>
                   <h3 className="heading text-2xl font-bold mb-2">Quote Request Sent!</h3>
-                  <p className="text-sm opacity-50">
+                  <p className="text-sm opacity-80">
                     A security consultant will contact you within 24 hours to discuss your
                     custom protection plan.
                   </p>
@@ -520,7 +520,7 @@ export default function Home() {
                     placeholder="Property Address"
                     className="w-full"
                   />
-                  <select className="w-full" defaultValue="">
+                  <select className="w-full p-3 border border-gray-300 rounded" defaultValue="">
                     <option value="" disabled>
                       Property Type
                     </option>
@@ -529,7 +529,7 @@ export default function Home() {
                     <option>Commercial / Business</option>
                     <option>Industrial / Warehouse</option>
                   </select>
-                  <select className="w-full" defaultValue="">
+                  <select className="w-full p-3 border border-gray-300 rounded" defaultValue="">
                     <option value="" disabled>
                       Interested Plan
                     </option>

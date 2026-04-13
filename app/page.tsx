@@ -161,7 +161,7 @@ export default function Home() {
 
       {/* Emergency Banner */}
       <div
-        className="w-full text-center py-2.5 px-4 text-xs tracking-wider uppercase font-semibold"
+        className="w-full text-center py-1.5 px-4 text-xs tracking-wider uppercase font-semibold"
         style={{ background: 'var(--accent)', color: '#fff' }}
       >
         ⚠️ 24/7 Emergency Monitoring Active — Call Now: (512) 555-0199 — Austin&apos;s Most Trusted Security Team
@@ -307,7 +307,7 @@ export default function Home() {
                   )}
                   <h3 className="heading text-lg mb-1">{p.name}</h3>
                   <div className="flex items-baseline gap-1 mb-6">
-                    <span className="heading text-5xl font-bold">{p.price}</span>
+                    <span className={`heading font-bold ${p.price === 'Custom' ? 'text-3xl' : 'text-5xl'}`}>{p.price}</span>
                     <span className="text-sm opacity-90">{p.period}</span>
                   </div>
                   <ul className="space-y-3 mb-8 flex-1">
@@ -405,7 +405,7 @@ export default function Home() {
 
         {/* FAQ */}
         <section id="faq" className="py-28 px-8 section-alt reveal">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-2xl mx-auto">
             <div className="text-center mb-16">
               <span className="badge">FAQ</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">

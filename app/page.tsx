@@ -180,16 +180,16 @@ export default function Home() {
           <h1 className="heading text-xl font-bold" style={{ color: 'var(--accent)' }}>
             Sentinel
           </h1>
-          <p className="text-[9px] tracking-[0.2em] uppercase opacity-70">Security Systems</p>
+          <p className="text-base tracking-[0.2em] uppercase opacity-90">Security Systems</p>
         </div>
         <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase font-medium" style={{ color: '#d1d5db' }}>
           {['services', 'plans', 'why-us', 'testimonials', 'faq', 'contact'].map((s) => (
-            <button key={s} onClick={() => scrollTo(s)}>
+            <button className="btn" key={s} onClick={() => scrollTo(s)}>
               {s}
             </button>
           ))}
         </div>
-        <button onClick={() => scrollTo('contact')} className="btn">
+        <button className="btn" onClick={() => scrollTo('contact')} className="btn">
           Get Quote
         </button>
       </nav>
@@ -211,10 +211,10 @@ export default function Home() {
                 count, you need a team that is already moving.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <button onClick={() => scrollTo('plans')} className="btn">
+                <button className="btn" onClick={() => scrollTo('plans')} className="btn">
                   View Plans
                 </button>
-                <button onClick={() => scrollTo('contact')} className="btn-outline">
+                <button className="btn" onClick={() => scrollTo('contact')} className="btn-outline">
                   Free Quote
                 </button>
               </div>
@@ -256,7 +256,7 @@ export default function Home() {
             <div className="text-center mb-16">
               <span className="badge">What We Offer</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">Comprehensive Security Services</h2>
-              <p className="text-sm opacity-70 mt-4 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-sm opacity-90 mt-4 max-w-2xl mx-auto leading-relaxed">
                 From a single-family home to a multi-building commercial campus, Sentinel delivers
                 end-to-end protection with industry-leading technology and human expertise.
               </p>
@@ -279,7 +279,7 @@ export default function Home() {
             <div className="text-center mb-16">
               <span className="badge">Pricing</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">Security Plans</h2>
-              <p className="text-sm opacity-70 mt-4">
+              <p className="text-sm opacity-90 mt-4">
                 No contracts. Cancel anytime. Equipment included with every plan.
               </p>
             </div>
@@ -308,7 +308,7 @@ export default function Home() {
                   <h3 className="heading text-lg mb-1">{p.name}</h3>
                   <div className="flex items-baseline gap-1 mb-6">
                     <span className="heading text-5xl font-bold">{p.price}</span>
-                    <span className="text-sm opacity-70">{p.period}</span>
+                    <span className="text-sm opacity-90">{p.period}</span>
                   </div>
                   <ul className="space-y-3 mb-8 flex-1">
                     {p.features.map((f) => (
@@ -339,7 +339,7 @@ export default function Home() {
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">
                 Why Austin Trusts Us
               </h2>
-              <p className="text-sm opacity-70 mt-4 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-sm opacity-90 mt-4 max-w-2xl mx-auto leading-relaxed">
                 We are not a national call center. We are your neighbors — local operators,
                 local technicians, and a monitoring center built right here in Texas.
               </p>
@@ -395,7 +395,7 @@ export default function Home() {
                   </p>
                   <div>
                     <p className="heading font-bold text-sm">{t.name}</p>
-                    <p className="text-xs opacity-70">{t.location}</p>
+                    <p className="text-xs opacity-90">{t.location}</p>
                   </div>
                 </div>
               ))}
@@ -411,7 +411,7 @@ export default function Home() {
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">
                 Frequently Asked Questions
               </h2>
-              <p className="text-sm opacity-70 mt-4">
+              <p className="text-sm opacity-90 mt-4">
                 Everything you need to know before getting started.
               </p>
             </div>
@@ -501,26 +501,26 @@ export default function Home() {
                     type="text"
                     placeholder="Full Name"
                     required
-                    className="w-full"
+                    className="w-full border border-gray-300 "
                   />
                   <input
                     type="tel"
                     placeholder="Phone Number"
                     required
-                    className="w-full"
+                    className="w-full border border-gray-300 "
                   />
                   <input
                     type="email"
                     placeholder="Email Address"
                     required
-                    className="w-full"
+                    className="w-full border border-gray-300 "
                   />
                   <input
                     type="text"
                     placeholder="Property Address"
-                    className="w-full"
+                    className="w-full border border-gray-300 "
                   />
-                  <select className="w-full p-3 border border-gray-300 rounded" defaultValue="">
+                  <select className="w-full p-3 border border-gray-300 rounded border border-gray-300 " defaultValue="">
                     <option value="" disabled>
                       Property Type
                     </option>
@@ -529,7 +529,7 @@ export default function Home() {
                     <option>Commercial / Business</option>
                     <option>Industrial / Warehouse</option>
                   </select>
-                  <select className="w-full p-3 border border-gray-300 rounded" defaultValue="">
+                  <select className="w-full p-3 border border-gray-300 rounded border border-gray-300 " defaultValue="">
                     <option value="" disabled>
                       Interested Plan
                     </option>
@@ -541,12 +541,12 @@ export default function Home() {
                   <textarea
                     placeholder="Tell us about your security needs (optional)"
                     rows={3}
-                    className="w-full"
+                    className="w-full border border-gray-300 "
                   />
                   <button type="submit" className="w-full btn py-4 text-base uppercase tracking-wider">
                     Get Free Quote
                   </button>
-                  <p className="text-[10px] opacity-30 text-center">
+                  <p className="text-sm opacity-80 text-center">
                     By submitting, you agree to be contacted by Sentinel Security. We never share your information.
                   </p>
                 </form>
@@ -564,8 +564,8 @@ export default function Home() {
         <p className="heading text-sm font-bold mb-2" style={{ color: 'var(--accent)' }}>
           Sentinel Security Systems
         </p>
-        <p className="text-xs opacity-30 mb-1">Austin, Texas — Protecting Central Texas Since 2003</p>
-        <p className="text-[10px] opacity-20">
+        <p className="text-xs opacity-80 mb-1">Austin, Texas — Protecting Central Texas Since 2003</p>
+        <p className="text-sm opacity-80">
           © {new Date().getFullYear()} Sentinel Security Systems. All rights reserved. TX License #B-12345.
         </p>
       </footer>

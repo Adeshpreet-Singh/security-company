@@ -184,12 +184,12 @@ export default function Home() {
         </div>
         <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase font-medium" style={{ color: '#d1d5db' }}>
           {['services', 'plans', 'why-us', 'testimonials', 'faq', 'contact'].map((s) => (
-            <button style={{ cursor: "pointer" }} className="btn" key={s} onClick={() => scrollTo(s)}>
+            <button className="btn" key={s} onClick={() => scrollTo(s)}>
               {s}
             </button>
           ))}
         </div>
-        <button style={{ cursor: "pointer" }} onClick={() => scrollTo('contact')} className="btn btn">
+        <button onClick={() => scrollTo('contact')} className="btn btn">
           Get Quote
         </button>
       </nav>
@@ -211,10 +211,10 @@ export default function Home() {
                 count, you need a team that is already moving.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <button style={{ cursor: "pointer" }} onClick={() => scrollTo('plans')} className="btn btn">
+                <button onClick={() => scrollTo('plans')} className="btn btn">
                   View Plans
                 </button>
-                <button style={{ cursor: "pointer" }} onClick={() => scrollTo('contact')} className="btn btn-outline">
+                <button onClick={() => scrollTo('contact')} className="btn btn-outline">
                   Free Quote
                 </button>
               </div>
@@ -320,7 +320,7 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <button style={{ cursor: "pointer" }}
+                  <button
                     className={`w-full py-3 rounded-lg font-bold text-sm ${p.featured ? 'btn' : 'btn-outline'}`}
                   >
                     {p.price === 'Custom' ? 'Contact Sales' : 'Get Started'}
@@ -418,7 +418,7 @@ export default function Home() {
             <div className="space-y-4">
               {faqs.map((faq, i) => (
                 <div key={i} className="card" style={{ padding: 0 }}>
-                  <button style={{ cursor: "pointer" }}
+                  <button
                     className="w-full flex justify-between items-center px-6 py-5 text-left"
                     onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   >
@@ -543,7 +543,7 @@ export default function Home() {
                     rows={3}
                     className="w-full border border-gray-300 "
                   />
-                  <button style={{ cursor: "pointer" }} type="submit" className="w-full btn py-4 text-base uppercase tracking-wider">
+                  <button type="submit" className="w-full btn py-4 text-base uppercase tracking-wider">
                     Get Free Quote
                   </button>
                   <p className="text-sm opacity-80 text-center">

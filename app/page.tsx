@@ -109,36 +109,34 @@ const testimonials = [
   },
 ];
 
-const faqs = [
+const whyUsItems = [
   {
-    q: 'Do I need a long-term contract?',
-    a: 'No. All Sentinel plans are month-to-month. You can cancel anytime with no penalties, fees, or equipment return requirements. We believe our service should earn your loyalty — not lock you in.',
+    title: 'Lightning-Fast Response',
+    desc: 'Our monitoring center averages 15 seconds from alarm to action. While national chains route you through call trees, our operators are already dispatching help.',
   },
   {
-    q: 'What happens when an alarm is triggered?',
-    a: 'Our monitoring center receives the alert within seconds. A trained operator verifies the event using audio, video, or by calling you. If a real threat is confirmed, we dispatch police, fire, or medical services immediately.',
+    title: 'No Contracts, Ever',
+    desc: 'We earn your business every month. Cancel anytime with zero penalties. We include all equipment at no extra charge — no hidden fees, no gotchas.',
   },
   {
-    q: 'Is professional installation required?',
-    a: 'Professional installation is included with our Professional and Enterprise plans. Basic plan customers can choose self-installation with our step-by-step guide, or add professional setup for a one-time fee.',
+    title: 'Local Texas Team',
+    desc: 'Every technician, operator, and support agent is based in Texas. When you call, you talk to someone who knows your neighborhood and cares about your community.',
   },
   {
-    q: 'Will the system work if my internet goes down?',
-    a: 'Yes. All plans include cellular backup. If your Wi-Fi or broadband goes offline, the system automatically switches to a dedicated cellular connection so monitoring is never interrupted.',
+    title: 'Five Diamond Certified',
+    desc: 'Our monitoring center holds the UL Five Diamond certification — the highest industry standard. Fewer than 5% of monitoring centers in North America achieve this rating.',
   },
-  {
-    q: 'Can I control the system from my phone?',
-    a: 'Absolutely. The Sentinel app is available for iOS and Android. You can arm and disarm your system, view live camera feeds, lock and unlock doors, receive instant alerts, and manage your entire security setup remotely.',
-  },
-  {
-    q: 'What areas do you serve?',
-    a: 'We currently serve the greater Austin metropolitan area, including Round Rock, Cedar Park, Georgetown, Pflugerville, Lakeway, Bee Cave, and surrounding communities. Contact us to confirm availability at your address.',
-  },
+];
+
+const stats = [
+  { val: '20+', label: 'Years of Service' },
+  { val: '50,000+', label: 'Homes Protected' },
+  { val: '15 sec', label: 'Avg. Response Time' },
+  { val: '99.99%', label: 'Uptime Reliability' },
 ];
 
 export default function Home() {
   const [submitted, setSubmitted] = useState(false);
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const scrollTo = (id: string) =>
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
@@ -157,69 +155,64 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen" style={{ background: 'var(--dark)', color: '#E2E8F0' }}>
+    <div className="min-h-screen bg-[var(--dark-bg)] text-[var(--text-primary)]">
 
-      {/* Emergency Banner */}
-      <div
-        className="w-full text-center py-1.5 px-4 text-xs tracking-wider uppercase font-semibold"
-        style={{ background: 'var(--accent)', color: '#fff' }}
-      >
-        ⚠️ 24/7 Emergency Monitoring Active — Call Now: (512) 555-0199 — Austin&apos;s Most Trusted Security Team
+      {/* ========== EMERGENCY BANNER ========== */}
+      <div className="emergency-banner">
+        <span className="emergency-icon">⚠️</span>
+        <span className="emergency-text">
+          24/7 Emergency Monitoring Active — Call Now: (512) 555-0199 — Austin&apos;s Most Trusted Security Team
+        </span>
       </div>
 
-      {/* Navigation */}
-      <nav
-        className="sticky top-0 z-50 px-8 py-4 flex justify-between items-center"
-        style={{
-          background: '#0f172aee',
-          backdropFilter: 'blur(12px)',
-          borderBottom: '1px solid #1E293B',
-        }}
-      >
+      {/* ========== NAVIGATION ========== */}
+      <nav className="nav-glass sticky top-0 z-50 px-8 py-4 flex justify-between items-center">
         <div>
-          <h1 className="heading text-xl font-bold" style={{ color: 'var(--accent)' }}>
-            Sentinel
-          </h1>
-          <p className="text-base tracking-[0.2em] uppercase opacity-90">Security Systems</p>
+          <h1 className="heading text-2xl font-bold neon-text">Sentinel</h1>
+          <p className="text-xs tracking-[0.25em] uppercase opacity-80 font-body">Security Systems</p>
         </div>
-        <div className="hidden md:flex gap-8 text-[11px] tracking-wider uppercase font-medium" style={{ color: '#d1d5db' }}>
-          {['services', 'plans', 'why-us', 'testimonials', 'faq', 'contact'].map((s) => (
-            <button className="btn" key={s} onClick={() => scrollTo(s)}>
-              {s}
+        <div className="hidden md:flex gap-8 text-[11px] tracking-widest uppercase font-body font-medium text-[var(--text-secondary)]">
+          {['services', 'plans', 'why-us', 'testimonials', 'contact'].map((s) => (
+            <button key={s} onClick={() => scrollTo(s)} className="nav-link">
+              {s.replace('-', ' ')}
             </button>
           ))}
         </div>
-        <button onClick={() => scrollTo('contact')} className="btn btn">
+        <button onClick={() => scrollTo('contact')} className="btn">
           Get Quote
         </button>
       </nav>
 
       <main>
-        {/* Hero */}
+        {/* ========== HERO SECTION ========== */}
         <section className="hero py-28 px-8">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-            <div>
-              <span className="badge mb-6">Protecting Austin Since 2003</span>
+            <div className="reveal visible">
+              <span className="badge">Protecting Austin Since 2003</span>
               <h2 className="heading text-5xl md:text-7xl font-extrabold mt-6 mb-8">
                 Your safety.
                 <br />
-                <span style={{ color: 'var(--accent)' }}>Our mission.</span>
+                <span className="neon-text">Our mission.</span>
               </h2>
-              <p className="text-lg opacity-80 mb-10 leading-relaxed max-w-lg">
+              <p className="text-lg opacity-80 mb-10 leading-relaxed max-w-lg font-body">
                 Professionally monitored security systems designed for homes and businesses.
                 We respond to every alarm in an average of 15 seconds — because when seconds
-                count, you need a team that is already moving.
+                count, you need a team that is already moving. Sentinel Security has protected
+                over 50,000 homes and businesses across the greater Austin metropolitan area
+                for more than two decades. Our commitment to rapid response, cutting-edge
+                technology, and genuine customer care has made us Central Texas&apos;s most
+                trusted name in security.
               </p>
               <div className="flex gap-4 flex-wrap">
-                <button onClick={() => scrollTo('plans')} className="btn btn">
+                <button onClick={() => scrollTo('plans')} className="btn">
                   View Plans
                 </button>
-                <button onClick={() => scrollTo('contact')} className="btn btn-outline">
-                  Free Quote
+                <button onClick={() => scrollTo('contact')} className="btn-outline">
+                  Free Assessment
                 </button>
               </div>
             </div>
-            <div className="img-hover">
+            <div className="img-hover reveal visible">
               <img
                 src="https://images.unsplash.com/photo-1558002038-1055907df827?w=700&q=80"
                 alt="Modern smart home security system"
@@ -231,34 +224,28 @@ export default function Home() {
 
           {/* Stats Bar */}
           <div className="max-w-6xl mx-auto mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
-            {[
-              { val: '20+', label: 'Years of Service' },
-              { val: '50,000+', label: 'Homes Protected' },
-              { val: '15 sec', label: 'Avg. Response Time' },
-              { val: '99.99%', label: 'Uptime Reliability' },
-            ].map((s) => (
-              <div
-                key={s.label}
-                className="card text-center py-8"
-              >
-                <p className="heading text-3xl md:text-4xl font-bold" style={{ color: 'var(--accent)' }}>
-                  {s.val}
-                </p>
-                <p className="text-sm uppercase tracking-wider opacity-80 mt-2">{s.label}</p>
+            {stats.map((s) => (
+              <div key={s.label} className="card text-center py-8">
+                <p className="heading text-3xl md:text-4xl font-bold neon-text">{s.val}</p>
+                <p className="text-sm uppercase tracking-wider opacity-80 mt-2 font-body">{s.label}</p>
               </div>
             ))}
           </div>
         </section>
 
-        {/* Services */}
+        {/* ========== SERVICES ========== */}
         <section id="services" className="py-28 px-8 section-alt reveal">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <span className="badge">What We Offer</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">Comprehensive Security Services</h2>
-              <p className="text-sm opacity-90 mt-4 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-sm opacity-90 mt-4 max-w-2xl mx-auto leading-relaxed font-body">
                 From a single-family home to a multi-building commercial campus, Sentinel delivers
-                end-to-end protection with industry-leading technology and human expertise.
+                end-to-end protection with industry-leading technology and human expertise. Every
+                service is backed by our Five Diamond-certified monitoring center, staffed by trained
+                professionals who respond to alerts within seconds — not minutes. Whether you need
+                basic alarm monitoring or a fully integrated smart security ecosystem, we build
+                solutions around your property, your lifestyle, and your budget.
               </p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -266,21 +253,25 @@ export default function Home() {
                 <div key={svc.title} className="card">
                   <span className="text-3xl mb-4 block">{svc.icon}</span>
                   <h3 className="heading text-lg font-bold mb-3">{svc.title}</h3>
-                  <p className="text-sm opacity-80 leading-relaxed">{svc.desc}</p>
+                  <p className="text-sm opacity-80 leading-relaxed font-body">{svc.desc}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Security Plans */}
+        {/* ========== PRICING ========== */}
         <section id="plans" className="py-28 px-8 reveal">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <span className="badge">Pricing</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6">Security Plans</h2>
-              <p className="text-sm opacity-90 mt-4">
+              <p className="text-sm opacity-90 mt-4 font-body">
                 No contracts. Cancel anytime. Equipment included with every plan.
+                All pricing is transparent — what you see is what you pay, with zero hidden fees
+                or surprise charges. Every plan includes professional 24/7 monitoring, cellular
+                backup, and access to our award-winning mobile app so you stay connected to your
+                property from anywhere in the world.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
@@ -291,38 +282,31 @@ export default function Home() {
                   style={
                     p.featured
                       ? {
-                          borderColor: 'var(--accent)',
-                          boxShadow: '0 0 40px color-mix(in srgb, #f54e00 15%, transparent)',
+                          borderColor: 'var(--neon)',
+                          boxShadow: '0 0 40px rgba(0, 212, 255, 0.15)',
                         }
                       : {}
                   }
                 >
                   {p.featured && (
-                    <span
-                      className="absolute -top-3 left-1/2 -translate-x-1/2 badge"
-                      style={{ background: 'var(--accent)', color: '#fff' }}
-                    >
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 badge" style={{ background: 'var(--neon)', color: '#000' }}>
                       Most Popular
                     </span>
                   )}
                   <h3 className="heading text-lg mb-1">{p.name}</h3>
                   <div className="flex items-baseline gap-1 mb-6">
-                    <span className={`heading font-bold ${p.price === 'Custom' ? 'text-3xl' : 'text-5xl'}`}>{p.price}</span>
-                    <span className="text-sm opacity-90">{p.period}</span>
+                    <span className={`heading font-bold ${p.price === 'Custom' ? 'text-3xl' : 'text-5xl'} neon-text`}>{p.price}</span>
+                    <span className="text-sm opacity-90 font-body">{p.period}</span>
                   </div>
                   <ul className="space-y-3 mb-8 flex-1">
                     {p.features.map((f) => (
-                      <li key={f} className="text-sm flex items-start gap-2">
-                        <span style={{ color: 'var(--accent)' }} className="mt-0.5">
-                          ✓
-                        </span>
+                      <li key={f} className="text-sm flex items-start gap-2 font-body">
+                        <span className="neon-text mt-0.5">✓</span>
                         <span className="opacity-90">{f}</span>
                       </li>
                     ))}
                   </ul>
-                  <button
-                    className={`w-full py-3 rounded-lg font-bold text-sm ${p.featured ? 'btn' : 'btn-outline'}`}
-                  >
+                  <button className={`w-full py-3 rounded font-bold text-sm ${p.featured ? 'btn' : 'btn-outline'}`}>
                     {p.price === 'Custom' ? 'Contact Sales' : 'Get Started'}
                   </button>
                 </div>
@@ -331,46 +315,27 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Why Choose Us */}
+        {/* ========== WHY CHOOSE US ========== */}
         <section id="why-us" className="py-28 px-8 section-alt reveal">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <span className="badge">Why Sentinel</span>
-              <h2 className="heading text-4xl md:text-5xl font-bold mt-6">
-                Why Austin Trusts Us
-              </h2>
-              <p className="text-sm opacity-90 mt-4 max-w-2xl mx-auto leading-relaxed">
+              <h2 className="heading text-4xl md:text-5xl font-bold mt-6">Why Austin Trusts Us</h2>
+              <p className="text-sm opacity-90 mt-4 max-w-2xl mx-auto leading-relaxed font-body">
                 We are not a national call center. We are your neighbors — local operators,
-                local technicians, and a monitoring center built right here in Texas.
+                local technicians, and a monitoring center built right here in Texas. Our team
+                lives in the communities we serve, and we treat every customer&apos;s safety as
+                if it were our own. That personal commitment is what separates Sentinel from
+                every other security company operating in Central Texas today.
               </p>
             </div>
             <div className="grid sm:grid-cols-2 gap-8">
-              {[
-                {
-                  title: 'Lightning-Fast Response',
-                  desc: 'Our monitoring center averages 15 seconds from alarm to action. While national chains route you through call trees, our operators are already dispatching help.',
-                },
-                {
-                  title: 'No Contracts, Ever',
-                  desc: 'We earn your business every month. Cancel anytime with zero penalties. We include all equipment at no extra charge — no hidden fees, no gotchas.',
-                },
-                {
-                  title: 'Local Texas Team',
-                  desc: 'Every technician, operator, and support agent is based in Texas. When you call, you talk to someone who knows your neighborhood and cares about your community.',
-                },
-                {
-                  title: 'Five Diamond Certified',
-                  desc: 'Our monitoring center holds the UL Five Diamond certification — the highest industry standard. Fewer than 5% of monitoring centers in North America achieve this rating.',
-                },
-              ].map((item) => (
+              {whyUsItems.map((item) => (
                 <div key={item.title} className="card flex gap-5">
-                  <div
-                    className="w-1.5 rounded-full flex-shrink-0"
-                    style={{ background: 'var(--accent)' }}
-                  />
+                  <div className="w-1.5 rounded-full flex-shrink-0 bg-[var(--neon)]" />
                   <div>
                     <h3 className="heading text-xl font-bold mb-3">{item.title}</h3>
-                    <p className="text-sm opacity-80 leading-relaxed">{item.desc}</p>
+                    <p className="text-sm opacity-80 leading-relaxed font-body">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -378,24 +343,27 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials */}
+        {/* ========== TESTIMONIALS ========== */}
         <section id="testimonials" className="py-28 px-8 reveal">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <span className="badge">Testimonials</span>
-              <h2 className="heading text-4xl md:text-5xl font-bold mt-6">
-                What Our Clients Say
-              </h2>
+              <h2 className="heading text-4xl md:text-5xl font-bold mt-6">What Our Clients Say</h2>
+              <p className="text-sm opacity-90 mt-4 max-w-2xl mx-auto leading-relaxed font-body">
+                Do not just take our word for it. Hear from real homeowners and business
+                operators across the Austin area who trust Sentinel to keep their properties,
+                families, and employees safe around the clock.
+              </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
               {testimonials.map((t) => (
                 <div key={t.name} className="card flex flex-col">
-                  <p className="text-sm opacity-80 leading-relaxed flex-1 italic mb-6">
+                  <p className="text-sm opacity-80 leading-relaxed flex-1 italic mb-6 font-body">
                     &ldquo;{t.quote}&rdquo;
                   </p>
                   <div>
                     <p className="heading font-bold text-sm">{t.name}</p>
-                    <p className="text-sm opacity-90">{t.location}</p>
+                    <p className="text-sm opacity-90 font-body">{t.location}</p>
                   </div>
                 </div>
               ))}
@@ -403,78 +371,37 @@ export default function Home() {
           </div>
         </section>
 
-        {/* FAQ */}
-        <section id="faq" className="py-28 px-8 section-alt reveal">
-          <div className="max-w-2xl mx-auto">
-            <div className="text-center mb-16">
-              <span className="badge">FAQ</span>
-              <h2 className="heading text-4xl md:text-5xl font-bold mt-6">
-                Frequently Asked Questions
-              </h2>
-              <p className="text-sm opacity-90 mt-4">
-                Everything you need to know before getting started.
-              </p>
-            </div>
-            <div className="space-y-4">
-              {faqs.map((faq, i) => (
-                <div key={i} className="card" style={{ padding: 0 }}>
-                  <button
-                    className="w-full flex justify-between items-center px-6 py-5 text-left"
-                    onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  >
-                    <span className="heading text-sm font-bold pr-4">{faq.q}</span>
-                    <span
-                      className="text-lg flex-shrink-0 transition-transform"
-                      style={{
-                        color: 'var(--accent)',
-                        transform: openFaq === i ? 'rotate(45deg)' : 'rotate(0)',
-                      }}
-                    >
-                      +
-                    </span>
-                  </button>
-                  {openFaq === i && (
-                    <div className="px-6 pb-6">
-                      <p className="text-sm opacity-80 leading-relaxed">{faq.a}</p>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Contact */}
-        <section id="contact" className="py-28 px-8 reveal">
+        {/* ========== FREE ASSESSMENT FORM ========== */}
+        <section id="contact" className="py-28 px-8 section-alt reveal">
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16">
             <div>
               <span className="badge">Get Started</span>
               <h2 className="heading text-4xl md:text-5xl font-bold mt-6 mb-8">
-                Request a Free Quote
+                Request a Free Security Assessment
               </h2>
-              <p className="text-sm opacity-80 leading-relaxed mb-8">
+              <p className="text-sm opacity-80 leading-relaxed mb-8 font-body">
                 Tell us about your property and we will design a custom security plan — no
-                obligation, no pressure. Most quotes are delivered within 24 hours.
+                obligation, no pressure. A licensed security consultant will review your
+                submission, assess your vulnerabilities, and deliver a personalized protection
+                proposal within 24 hours. Most assessments include a complimentary on-site
+                visit to evaluate entry points, camera placement, and sensor coverage so you
+                get a plan that actually fits your property.
               </p>
-              <div className="space-y-4 text-sm">
+              <div className="space-y-4 text-sm font-body">
                 <div className="flex items-center gap-3 opacity-80">
-                  <span style={{ color: 'var(--accent)' }}>📍</span>
+                  <span className="neon-text">📍</span>
                   Serving the Greater Austin Metro Area
                 </div>
                 <div className="flex items-center gap-3 opacity-80">
-                  <span style={{ color: 'var(--accent)' }}>📞</span>
-                  <a href="tel:(512)555-0199" style={{ color: 'var(--accent)' }}>
-                    (512) 555-0199
-                  </a>
+                  <span className="neon-text">📞</span>
+                  <a href="tel:(512)555-0199" className="neon-text">(512) 555-0199</a>
                 </div>
                 <div className="flex items-center gap-3 opacity-80">
-                  <span style={{ color: 'var(--accent)' }}>📧</span>
-                  <a href="mailto:info@sentinelsecurity.com" style={{ color: 'var(--accent)' }}>
-                    info@sentinelsecurity.com
-                  </a>
+                  <span className="neon-text">📧</span>
+                  <a href="mailto:info@sentinelsecurity.com" className="neon-text">info@sentinelsecurity.com</a>
                 </div>
                 <div className="flex items-center gap-3 opacity-80">
-                  <span style={{ color: 'var(--accent)' }}>🕐</span>
+                  <span className="neon-text">🕐</span>
                   Mon–Fri 8 AM – 8 PM, Sat 9 AM – 5 PM
                 </div>
               </div>
@@ -483,10 +410,10 @@ export default function Home() {
               {submitted ? (
                 <div className="card h-full flex flex-col items-center justify-center text-center">
                   <span className="text-5xl mb-4">✅</span>
-                  <h3 className="heading text-2xl font-bold mb-2">Quote Request Sent!</h3>
-                  <p className="text-sm opacity-80">
+                  <h3 className="heading text-2xl font-bold mb-2">Assessment Request Sent!</h3>
+                  <p className="text-sm opacity-80 font-body">
                     A security consultant will contact you within 24 hours to discuss your
-                    custom protection plan.
+                    custom protection plan and schedule a free on-site assessment.
                   </p>
                 </div>
               ) : (
@@ -497,56 +424,29 @@ export default function Home() {
                   }}
                   className="space-y-4"
                 >
-                  <input
-                    type="text"
-                    placeholder="Full Name"
-                    required
-                    className="w-full border border-gray-300  border-2 border-current/20"
-                  />
-                  <input
-                    type="tel"
-                    placeholder="Phone Number"
-                    required
-                    className="w-full border border-gray-300  border-2 border-current/20"
-                  />
-                  <input
-                    type="email"
-                    placeholder="Email Address"
-                    required
-                    className="w-full border border-gray-300  border-2 border-current/20"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Property Address"
-                    className="w-full border border-gray-300  border-2 border-current/20"
-                  />
-                  <select className="w-full p-3 border border-gray-300 rounded border border-gray-300 " defaultValue="">
-                    <option value="" disabled>
-                      Property Type
-                    </option>
+                  <input type="text" placeholder="Full Name" required />
+                  <input type="tel" placeholder="Phone Number" required />
+                  <input type="email" placeholder="Email Address" required />
+                  <input type="text" placeholder="Property Address" />
+                  <select defaultValue="">
+                    <option value="" disabled>Property Type</option>
                     <option>Single-Family Home</option>
                     <option>Apartment / Condo</option>
                     <option>Commercial / Business</option>
                     <option>Industrial / Warehouse</option>
                   </select>
-                  <select className="w-full p-3 border border-gray-300 rounded border border-gray-300 " defaultValue="">
-                    <option value="" disabled>
-                      Interested Plan
-                    </option>
+                  <select defaultValue="">
+                    <option value="" disabled>Interested Plan</option>
                     <option>Basic — $29/mo</option>
                     <option>Professional — $49/mo</option>
                     <option>Enterprise — Custom</option>
                     <option>Not sure yet</option>
                   </select>
-                  <textarea
-                    placeholder="Tell us about your security needs (optional)"
-                    rows={3}
-                    className="w-full border border-gray-300 "
-                  />
-                  <button type="submit" className="w-full btn py-4 text-base uppercase tracking-wider">
-                    Get Free Quote
+                  <textarea placeholder="Tell us about your security needs (optional)" rows={3} />
+                  <button type="submit" className="w-full btn py-4 text-base">
+                    Request Free Assessment
                   </button>
-                  <p className="text-sm opacity-80 text-center">
+                  <p className="text-sm opacity-80 text-center font-body">
                     By submitting, you agree to be contacted by Sentinel Security. We never share your information.
                   </p>
                 </form>
@@ -556,18 +456,15 @@ export default function Home() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer
-        className="py-12 px-8 text-center"
-        style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}
-      >
-        <p className="heading text-sm font-bold mb-2" style={{ color: 'var(--accent)' }}>
-          Sentinel Security Systems
-        </p>
-        <p className="text-sm opacity-80 mb-1">Austin, Texas — Protecting Central Texas Since 2003</p>
-        <p className="text-sm opacity-80">
-          © {new Date().getFullYear()} Sentinel Security Systems. All rights reserved. TX License #B-12345.
-        </p>
+      {/* ========== FOOTER ========== */}
+      <footer className="footer-glow py-12 px-8 text-center" style={{ borderTop: '1px solid rgba(0, 212, 255, 0.1)' }}>
+        <div className="max-w-6xl mx-auto">
+          <p className="heading text-xl font-bold mb-2 neon-text">Sentinel Security Systems</p>
+          <p className="text-sm opacity-80 mb-1 font-body">Austin, Texas — Protecting Central Texas Since 2003</p>
+          <p className="text-sm opacity-60 font-body">
+            © {new Date().getFullYear()} Sentinel Security Systems. All rights reserved. TX License #B-12345.
+          </p>
+        </div>
       </footer>
     </div>
   );

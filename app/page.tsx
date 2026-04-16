@@ -96,7 +96,28 @@ export default function SentinelSecurityPage() {
         <span className="emergency-icon">⚠️</span>
         <span className="emergency-text">THREAT LEVEL ELEVATED — SECURITY CONSULTATIONS AVAILABLE 24/7</span>
         <span className="emergency-icon">⚠️</span>
-      </div>
+      
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
 
       {/* Navigation */}
       <nav className="nav-glass" style={{ position: "sticky", top: 0, zIndex: 50 }}>
@@ -106,7 +127,28 @@ export default function SentinelSecurityPage() {
             <span className="heading" style={{ fontSize: "1.1rem" }}>
               SENTINEL <span className="neon-text">SECURITY</span>
             </span>
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
           </div>
+        </div>
+      </section>
+
+    </div>
           <div style={{ display: "flex", gap: 28, alignItems: "center" }}>
             {["Services", "Operations", "Team", "Contact"].map((item) => (
               <a key={item} href={`#${item.toLowerCase()}`} style={{ color: "var(--text-secondary)", fontSize: "0.7rem", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none", transition: "color 0.3s" }}>
@@ -114,18 +156,102 @@ export default function SentinelSecurityPage() {
               </a>
             ))}
             <a href="#contact" className="btn" style={{ fontSize: "0.7rem", padding: "10px 22px" }}>Get Protected</a>
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
           </div>
         </div>
+      </section>
+
+    </div>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
       </nav>
 
       {/* HERO — Command Center Layout */}
       <section className="hero" style={{ minHeight: "85vh", padding: "80px 24px", position: "relative" }}>
-        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse at 60% 40%, rgba(0,212,255,0.06) 0%, transparent 60%)", pointerEvents: "none" }}></div>
+        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse at 60% 40%, rgba(0,212,255,0.06) 0%, transparent 60%)", pointerEvents: "none" }}>
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
         <div style={{ maxWidth: 1200, margin: "0 auto", position: "relative", zIndex: 2 }}>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "start" }}>
             {/* Left: Main message */}
             <div style={{ paddingTop: 40 }}>
-              <div className="badge" style={{ marginBottom: 20 }}>Certified Security Provider</div>
+              <div className="badge" style={{ marginBottom: 20 }}>Certified Security Provider
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
               <h1 className="heading" style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)", marginBottom: 20, lineHeight: 1.05 }}>
                 PROTECTING<br />
                 WHAT <span className="gradient-text">MATTERS MOST</span>
@@ -136,8 +262,50 @@ export default function SentinelSecurityPage() {
               <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
                 <a href="#contact" className="btn cta-pulse">Schedule Assessment</a>
                 <a href="#services" className="btn-outline">View Solutions</a>
-              </div>
-            </div>
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
 
             {/* Right: Live feed simulation */}
             <div className="card" style={{ padding: "1.5rem", fontFamily: "monospace", fontSize: "0.75rem" }}>
@@ -147,7 +315,28 @@ export default function SentinelSecurityPage() {
                   <span style={{ width: 8, height: 8, borderRadius: "50%", background: "#00ff88", animation: "dot-pulse 1.5s infinite" }}></span>
                   ONLINE
                 </span>
-              </div>
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 8, maxHeight: 260, overflow: "hidden" }}>
                 {THREAT_FEED.map((feed, i) => (
                   <div key={i} style={{
@@ -168,13 +357,139 @@ export default function SentinelSecurityPage() {
                         color: feed.level === "critical" ? "#ff1744" : feed.level === "warning" ? "#ffc107" : "var(--neon)"
                       }}>{feed.type}</span>
                       <span style={{ color: "var(--text-secondary)" }}>{feed.msg}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+                    
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
           </div>
         </div>
+      </section>
+
+    </div>
+                  
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+                ))}
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
       </section>
 
       {/* Stats */}
@@ -182,24 +497,171 @@ export default function SentinelSecurityPage() {
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px", display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 24, textAlign: "center" }}>
           {SECURITY_STATS.map((s, i) => (
             <div key={i} className="reveal" style={{ transitionDelay: `${i * 0.1}s` }}>
-              <div className="stat-number">{s.num}</div>
-              <div style={{ color: "var(--text-secondary)", fontSize: "0.8rem", marginTop: 6 }}>{s.label}</div>
-            </div>
-          ))}
+              <div className="stat-number">{s.num}
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
         </div>
-      </div>
+      </section>
+
+    </div>
+              <div style={{ color: "var(--text-secondary)", fontSize: "0.8rem", marginTop: 6 }}>{s.label}
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+          ))}
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+      
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
 
       {/* Services — Stacked Card Layout */}
       <section id="services" style={{ padding: "100px 24px", maxWidth: 1200, margin: "0 auto" }}>
         <div className="reveal" style={{ textAlign: "center", marginBottom: 60 }}>
-          <div className="badge" style={{ marginBottom: 16 }}>Solutions</div>
+          <div className="badge" style={{ marginBottom: 16 }}>Solutions
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
           <h2 className="heading" style={{ fontSize: "clamp(1.8rem, 3vw, 2.8rem)" }}>
             Comprehensive <span className="neon-text">Security</span> Ecosystem
           </h2>
           <p style={{ color: "var(--text-secondary)", maxWidth: 650, margin: "16px auto 0" }}>
             Physical and digital security converge in our integrated platform. Every layer of defense works together to create an impenetrable shield around your assets.
           </p>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
         </div>
+      </section>
+
+    </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
           {SERVICES.map((svc, i) => (
             <div key={i} className="card reveal" style={{
@@ -213,8 +675,50 @@ export default function SentinelSecurityPage() {
               <div style={{ order: i % 2 === 0 ? 1 : 2 }}>
                 <div className="img-hover" style={{ height: 240 }}>
                   <img src={svc.img} alt={svc.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-                </div>
-              </div>
+                
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
               <div style={{ order: i % 2 === 0 ? 2 : 1 }}>
                 <h3 className="heading" style={{ fontSize: "1.5rem", marginBottom: 12 }}>{svc.title}</h3>
                 <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, fontSize: "0.92rem", marginBottom: 16 }}>{svc.desc}</p>
@@ -224,131 +728,1076 @@ export default function SentinelSecurityPage() {
                       {tag}
                     </span>
                   ))}
-                </div>
-              </div>
-            </div>
-          ))}
+                
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
         </div>
+      </section>
+
+    </div>
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+          ))}
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
       </section>
 
       {/* Command Center Visual — Dashboard Grid */}
       <section id="operations" className="section-alt" style={{ padding: "100px 24px" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div className="reveal" style={{ textAlign: "center", marginBottom: 60 }}>
-            <div className="badge" style={{ marginBottom: 16 }}>Operations Center</div>
+            <div className="badge" style={{ marginBottom: 16 }}>Operations Center
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <h2 className="heading" style={{ fontSize: "clamp(1.8rem, 3vw, 2.5rem)" }}>
               24/7 Security <span className="neon-text">Command Center</span>
             </h2>
             <p style={{ color: "var(--text-secondary)", maxWidth: 600, margin: "12px auto 0" }}>
               Our state-of-the-art SOC monitors thousands of endpoints, cameras, and access points simultaneously with AI-assisted threat detection.
             </p>
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
           </div>
+        </div>
+      </section>
+
+    </div>
           <div className="stagger-children" style={{ display: "grid", gridTemplateColumns: "2fr 1fr 1fr", gridTemplateRows: "200px 200px", gap: 16 }}>
             <div className="card" style={{ gridRow: "1 / 3", padding: "1.5rem", display: "flex", flexDirection: "column" }}>
-              <div className="heading neon-text" style={{ fontSize: "0.7rem", letterSpacing: "0.2em", marginBottom: 12 }}>MONITORING GRID</div>
+              <div className="heading neon-text" style={{ fontSize: "0.7rem", letterSpacing: "0.2em", marginBottom: 12 }}>MONITORING GRID
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
               <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridTemplateRows: "repeat(2, 1fr)", gap: 6 }}>
                 {[1, 2, 3, 4, 5, 6].map((n) => (
                   <div key={n} style={{ background: "rgba(0,212,255,0.04)", borderRadius: 4, border: "1px solid rgba(0,212,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
                     <img src={`https://images.unsplash.com/photo-1557599000000?w=200&h=150&fit=crop`} alt={`Camera ${n}`} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 4, opacity: 0.9 }} />
                     <span style={{ position: "absolute", top: 4, left: 6, fontSize: "0.55rem", color: "#00ff88", fontFamily: "monospace" }}>CAM-{String(n).padStart(2, "0")}</span>
                     <span style={{ position: "absolute", top: 4, right: 6, width: 6, height: 6, borderRadius: "50%", background: "#00ff88" }}></span>
-                  </div>
+                  
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
                 ))}
-              </div>
-            </div>
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div className="card" style={{ padding: "1.25rem", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>INCIDENTS TODAY</div>
-              <div className="stat-number" style={{ fontSize: "3rem" }}>3</div>
-              <div style={{ color: "#00ff88", fontSize: "0.8rem" }}>All resolved &lt; 5 min</div>
-            </div>
+              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>INCIDENTS TODAY
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              <div className="stat-number" style={{ fontSize: "3rem" }}>3
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              <div style={{ color: "#00ff88", fontSize: "0.8rem" }}>All resolved &lt; 5 min
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div className="card" style={{ padding: "1.25rem", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>GUARDS ON DUTY</div>
-              <div className="stat-number" style={{ fontSize: "3rem" }}>47</div>
-              <div style={{ color: "var(--text-secondary)", fontSize: "0.8rem" }}>Across 12 facilities</div>
-            </div>
+              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>GUARDS ON DUTY
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              <div className="stat-number" style={{ fontSize: "3rem" }}>47
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              <div style={{ color: "var(--text-secondary)", fontSize: "0.8rem" }}>Across 12 facilities
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div className="card" style={{ padding: "1.25rem", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>SYSTEM STATUS</div>
+              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>SYSTEM STATUS
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 8, marginTop: 8 }}>
                 {["Cameras", "Alarms", "Access Ctrl", "Network"].map((sys) => (
                   <div key={sys} style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                     <span style={{ fontSize: "0.78rem", color: "var(--text-secondary)" }}>{sys}</span>
                     <span style={{ fontSize: "0.7rem", color: "#00ff88", fontFamily: "monospace" }}>ONLINE</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="card" style={{ padding: "1.25rem", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>THREATS BLOCKED</div>
-              <div className="stat-number" style={{ fontSize: "3rem" }}>1.2K</div>
-              <div style={{ color: "var(--text-secondary)", fontSize: "0.8rem" }}>This month</div>
-            </div>
+                  
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
           </div>
         </div>
+      </section>
+
+    </div>
+                ))}
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            <div className="card" style={{ padding: "1.25rem", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+              <div className="heading" style={{ fontSize: "0.65rem", letterSpacing: "0.2em", color: "var(--text-muted)" }}>THREATS BLOCKED
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              <div className="stat-number" style={{ fontSize: "3rem" }}>1.2K
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              <div style={{ color: "var(--text-secondary)", fontSize: "0.8rem" }}>This month
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
       </section>
 
       {/* Team */}
       <section id="team" style={{ padding: "100px 24px", maxWidth: 1200, margin: "0 auto" }}>
         <div className="reveal" style={{ textAlign: "center", marginBottom: 48 }}>
-          <div className="badge" style={{ marginBottom: 16 }}>Leadership</div>
+          <div className="badge" style={{ marginBottom: 16 }}>Leadership
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
           <h2 className="heading" style={{ fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)" }}>
             Meet Our <span className="neon-text">Command Team</span>
           </h2>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
         </div>
+      </section>
+
+    </div>
         <div className="stagger-children" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 24 }}>
           {TEAM.map((member, i) => (
             <div key={i} className="card" style={{ textAlign: "center", padding: "2rem 1.5rem" }}>
               <div className="img-hover" style={{ width: 120, height: 120, borderRadius: "50%", margin: "0 auto 16px", overflow: "hidden" }}>
                 <img src={member.img} alt={member.name} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-              </div>
-              <h3 className="heading" style={{ fontSize: "1rem", marginBottom: 4 }}>{member.name}</h3>
-              <div style={{ color: "var(--neon)", fontSize: "0.75rem", marginBottom: 4 }}>{member.role}</div>
-              <div style={{ color: "var(--text-muted)", fontSize: "0.75rem" }}>{member.exp} experience</div>
-            </div>
-          ))}
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
         </div>
+      </section>
+
+    </div>
+              <h3 className="heading" style={{ fontSize: "1rem", marginBottom: 4 }}>{member.name}</h3>
+              <div style={{ color: "var(--neon)", fontSize: "0.75rem", marginBottom: 4 }}>{member.role}
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+              <div style={{ color: "var(--text-muted)", fontSize: "0.75rem" }}>{member.exp} experience
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+          ))}
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
       </section>
 
       {/* Certifications Bar */}
       <div className="section-alt" style={{ padding: "40px 24px" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", textAlign: "center" }}>
-          <div style={{ color: "var(--text-muted)", fontSize: "0.7rem", letterSpacing: "0.2em", textTransform: "uppercase", marginBottom: 20 }}>Certified & Compliant</div>
+          <div style={{ color: "var(--text-muted)", fontSize: "0.7rem", letterSpacing: "0.2em", textTransform: "uppercase", marginBottom: 20 }}>Certified & Compliant
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
           <div style={{ display: "flex", justifyContent: "center", gap: 40, flexWrap: "wrap" }}>
             {CERTIFICATIONS.map((cert) => (
               <span key={cert} className="badge" style={{ fontSize: "0.65rem" }}>{cert}</span>
             ))}
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
           </div>
         </div>
-      </div>
+      </section>
+
+    </div>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+      
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
 
       {/* Contact */}
       <section id="contact" style={{ padding: "100px 24px", maxWidth: 1000, margin: "0 auto" }}>
         <div className="reveal" style={{ textAlign: "center", marginBottom: 48 }}>
-          <div className="badge" style={{ marginBottom: 16 }}>Contact</div>
+          <div className="badge" style={{ marginBottom: 16 }}>Contact
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
           <h2 className="heading" style={{ fontSize: "clamp(1.8rem, 3vw, 2.5rem)" }}>
             Request A <span className="neon-text">Security Assessment</span>
           </h2>
           <p style={{ color: "var(--text-secondary)", marginTop: 12 }}>
             Our consultants will evaluate your current security posture and deliver a comprehensive report within 48 hours.
           </p>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
         </div>
+      </section>
+
+    </div>
         <div className="card reveal" style={{ padding: "2.5rem" }}>
           <form style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20 }}>
             <div>
               <label style={{ display: "block", marginBottom: 6, fontSize: "0.78rem", color: "var(--text-muted)" }}>Full Name</label>
               <input type="text" placeholder="John Doe" />
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <label style={{ display: "block", marginBottom: 6, fontSize: "0.78rem", color: "var(--text-muted)" }}>Company</label>
               <input type="text" placeholder="Acme Corporation" />
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <label style={{ display: "block", marginBottom: 6, fontSize: "0.78rem", color: "var(--text-muted)" }}>Email</label>
               <input type="text" placeholder="john@acme.com" />
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <label style={{ display: "block", marginBottom: 6, fontSize: "0.78rem", color: "var(--text-muted)" }}>Phone</label>
               <input type="text" placeholder="(555) 123-4567" />
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <label style={{ display: "block", marginBottom: 6, fontSize: "0.78rem", color: "var(--text-muted)" }}>Facility Type</label>
               <select defaultValue="">
@@ -360,7 +1809,28 @@ export default function SentinelSecurityPage() {
                 <option>Residential Estate</option>
                 <option>Healthcare</option>
               </select>
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <label style={{ display: "block", marginBottom: 6, fontSize: "0.78rem", color: "var(--text-muted)" }}>Current Security Level</label>
               <select defaultValue="">
@@ -370,16 +1840,100 @@ export default function SentinelSecurityPage() {
                 <option>Moderate (Cameras & Guards)</option>
                 <option>Advanced (Integrated System)</option>
               </select>
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div style={{ gridColumn: "1 / -1" }}>
               <label style={{ display: "block", marginBottom: 6, fontSize: "0.78rem", color: "var(--text-muted)" }}>Security Concerns</label>
               <textarea rows={4} placeholder="Describe your security challenges, recent incidents, or specific areas of concern..." />
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div style={{ gridColumn: "1 / -1", textAlign: "center" }}>
               <button type="submit" className="btn cta-pulse">Request Free Assessment</button>
-            </div>
-          </form>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
         </div>
+      </section>
+
+    </div>
+          </form>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
       </section>
 
       {/* Footer */}
@@ -390,34 +1944,202 @@ export default function SentinelSecurityPage() {
               <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 16 }}>
                 <span style={{ fontSize: 24 }}>🛡️</span>
                 <span className="heading" style={{ fontSize: "0.9rem" }}>SENTINEL SECURITY</span>
-              </div>
+              
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
               <p style={{ color: "var(--text-muted)", fontSize: "0.85rem", lineHeight: 1.7 }}>
                 Integrated security solutions combining physical protection, surveillance technology, and cybersecurity expertise.
               </p>
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <h4 className="heading" style={{ fontSize: "0.75rem", marginBottom: 16 }}>Solutions</h4>
               {["Physical Security", "Surveillance", "Access Control", "Cybersecurity"].map((s) => (
                 <a key={s} href="#services" style={{ display: "block", color: "var(--text-muted)", fontSize: "0.85rem", marginBottom: 8, textDecoration: "none" }}>{s}</a>
               ))}
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <h4 className="heading" style={{ fontSize: "0.75rem", marginBottom: 16 }}>Company</h4>
               {["About Us", "Careers", "Case Studies", "Partners"].map((s) => (
                 <a key={s} href="#" style={{ display: "block", color: "var(--text-muted)", fontSize: "0.85rem", marginBottom: 8, textDecoration: "none" }}>{s}</a>
               ))}
-            </div>
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
             <div>
               <h4 className="heading" style={{ fontSize: "0.75rem", marginBottom: 16 }}>Emergency Line</h4>
               <a href="tel:+18005554321" className="neon-text" style={{ fontFamily: "var(--font-heading)", fontSize: "1.1rem", textDecoration: "none" }}>(800) 555-4321</a>
               <p style={{ color: "var(--text-muted)", fontSize: "0.8rem", marginTop: 8 }}>24/7 Monitoring Center</p>
               <p style={{ color: "var(--text-muted)", fontSize: "0.8rem" }}>ops@sentinelsecurity.com</p>
-            </div>
-          </div>
-          <div style={{ borderTop: "1px solid var(--dark-border)", paddingTop: 24, textAlign: "center", color: "var(--text-muted)", fontSize: "0.75rem" }}>
-            © 2026 Sentinel Security Group. All rights reserved. Licensed in all 50 states.
+            
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
           </div>
         </div>
+      </section>
+
+    </div>
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+          <div style={{ borderTop: "1px solid var(--dark-border)", paddingTop: 24, textAlign: "center", color: "var(--text-muted)", fontSize: "0.75rem" }}>
+            © 2026 Sentinel Security Group. All rights reserved. Licensed in all 50 states.
+          
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
+        
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+    </div>
       </footer>
 
       <style>{`
@@ -426,6 +2148,27 @@ export default function SentinelSecurityPage() {
           50% { opacity: '0.9'; }
         }
       `}</style>
+    
+      <section className="section reveal">
+        <div className="container" style={{ maxWidth: '800px' }}>
+          <h2 className="text-center" style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '3rem' }}>Frequently Asked Questions</h2>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>How long does it take to build a website?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Most projects take 2-4 weeks from start to finish, depending on complexity. We'll provide a detailed timeline during our initial consultation.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>Do you offer ongoing maintenance?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Yes! We offer monthly maintenance packages that include updates, security monitoring, and 24/7 support.</p>
+            </details>
+            <details className="card" style={{ padding: '1.5rem' }}>
+              <summary style={{ fontWeight: 'bold', cursor: 'pointer' }}>What's included in your pricing?</summary>
+              <p style={{ marginTop: '1rem', color: 'var(--text-secondary)', lineHeight: '1.6' }}>Our pricing includes design, development, content integration, SEO optimization, and 30 days of post-launch support.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }

@@ -117,6 +117,101 @@ export default function SentinelSecurityPage() {
         </div>
       </section>
 
+      <section className="section reveal" style={ background: 'var(--bg-secondary)' }>
+        <div className="container">
+          <h2 className="text-center" style={ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }>
+            Our Process
+          </h2>
+          <p className="text-center" style={ 
+            color: 'var(--text-secondary)', 
+            maxWidth: '700px', 
+            margin: '0 auto 3rem',
+            fontSize: '1.125rem'
+          }>
+            A structured approach that ensures quality, efficiency, and client satisfaction.
+          </p>
+          <div style={ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }>
+            <div style={ textAlign: 'center' }>
+              <div style={ 
+                width: '80px', 
+                height: '80px', 
+                borderRadius: '50%', 
+                background: '#374151', 
+                color: 'white', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                fontSize: '2rem',
+                fontWeight: 'bold',
+                margin: '0 auto 1rem'
+              }>1</div>
+              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Discovery</h3>
+              <p style={ color: 'var(--text-secondary)' }>
+                We start by understanding your business, goals, and challenges.
+              </p>
+            </div>
+            <div style={ textAlign: 'center' }>
+              <div style={ 
+                width: '80px', 
+                height: '80px', 
+                borderRadius: '50%', 
+                background: '#374151', 
+                color: 'white', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                fontSize: '2rem',
+                fontWeight: 'bold',
+                margin: '0 auto 1rem'
+              }>2</div>
+              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Planning</h3>
+              <p style={ color: 'var(--text-secondary)' }>
+                We develop a comprehensive strategy and roadmap for success.
+              </p>
+            </div>
+            <div style={ textAlign: 'center' }>
+              <div style={ 
+                width: '80px', 
+                height: '80px', 
+                borderRadius: '50%', 
+                background: '#374151', 
+                color: 'white', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                fontSize: '2rem',
+                fontWeight: 'bold',
+                margin: '0 auto 1rem'
+              }>3</div>
+              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Execution</h3>
+              <p style={ color: 'var(--text-secondary)' }>
+                Our team brings the plan to life with precision and creativity.
+              </p>
+            </div>
+            <div style={ textAlign: 'center' }>
+              <div style={ 
+                width: '80px', 
+                height: '80px', 
+                borderRadius: '50%', 
+                background: '#374151', 
+                color: 'white', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                fontSize: '2rem',
+                fontWeight: 'bold',
+                margin: '0 auto 1rem'
+              }>4</div>
+              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Delivery</h3>
+              <p style={ color: 'var(--text-secondary)' }>
+                We deliver exceptional results with ongoing support and optimization.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
     </div>
 
       {/* Navigation */}
@@ -1937,7 +2032,36 @@ export default function SentinelSecurityPage() {
       </section>
 
       {/* Footer */}
-      <footer className="footer-glow" style={{ padding: "60px 24px 32px", background: "var(--dark-surface)" }}>
+      
+      <section className="section reveal" style={ 
+        background: `linear-gradient(135deg, #374151, #374151dd)`,
+        color: 'white',
+        textAlign: 'center'
+      }>
+        <div className="container">
+          <h2 style={ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }>
+            Ready to Transform Your Business?
+          </h2>
+          <p style={ 
+            fontSize: '1.25rem', 
+            opacity: 0.9,
+            maxWidth: '600px',
+            margin: '0 auto 2.5rem'
+          }>
+            Join hundreds of satisfied clients who have achieved remarkable results with our security services solutions.
+          </p>
+          <div style={ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }>
+            <button className="btn-primary btn-lg" style={ background: 'white', color: '#374151' }>
+              Start Your Project Today
+            </button>
+            <button className="btn-secondary btn-lg" style={ borderColor: 'white', color: 'white' }>
+              Schedule a Call
+            </button>
+          </div>
+        </div>
+      </section>
+
+<footer className="footer-glow" style={{ padding: "60px 24px 32px", background: "var(--dark-surface)" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 40, marginBottom: 40 }}>
             <div>

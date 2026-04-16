@@ -117,23 +117,21 @@ export default function SentinelSecurityPage() {
         </div>
       </section>
 
-      <section className="section reveal" style={ background: 'var(--bg-secondary)' }>
+      <section className="section reveal" style={{  background: 'var(--bg-secondary)'  }}>
         <div className="container">
-          <h2 className="text-center" style={ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }>
+          <h2 className="text-center" style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem'  }}>
             Our Process
           </h2>
-          <p className="text-center" style={ 
-            color: 'var(--text-secondary)', 
+          <p className="text-center" style={{ color: 'var(--text-secondary)', 
             maxWidth: '700px', 
             margin: '0 auto 3rem',
             fontSize: '1.125rem'
-          }>
+           }}>
             A structured approach that ensures quality, efficiency, and client satisfaction.
           </p>
-          <div style={ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }>
-            <div style={ textAlign: 'center' }>
-              <div style={ 
-                width: '80px', 
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem'  }}>
+            <div style={{ textAlign: 'center'  }}>
+              <div style={{ width: '80px', 
                 height: '80px', 
                 borderRadius: '50%', 
                 background: '#374151', 
@@ -144,15 +142,14 @@ export default function SentinelSecurityPage() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 margin: '0 auto 1rem'
-              }>1</div>
-              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Discovery</h3>
-              <p style={ color: 'var(--text-secondary)' }>
+               }}>1</div>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem'  }}>Discovery</h3>
+              <p style={{ color: 'var(--text-secondary)'  }}>
                 We start by understanding your business, goals, and challenges.
               </p>
             </div>
-            <div style={ textAlign: 'center' }>
-              <div style={ 
-                width: '80px', 
+            <div style={{ textAlign: 'center'  }}>
+              <div style={{ width: '80px', 
                 height: '80px', 
                 borderRadius: '50%', 
                 background: '#374151', 
@@ -163,15 +160,14 @@ export default function SentinelSecurityPage() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 margin: '0 auto 1rem'
-              }>2</div>
-              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Planning</h3>
-              <p style={ color: 'var(--text-secondary)' }>
+               }}>2</div>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem'  }}>Planning</h3>
+              <p style={{ color: 'var(--text-secondary)'  }}>
                 We develop a comprehensive strategy and roadmap for success.
               </p>
             </div>
-            <div style={ textAlign: 'center' }>
-              <div style={ 
-                width: '80px', 
+            <div style={{ textAlign: 'center'  }}>
+              <div style={{ width: '80px', 
                 height: '80px', 
                 borderRadius: '50%', 
                 background: '#374151', 
@@ -182,15 +178,14 @@ export default function SentinelSecurityPage() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 margin: '0 auto 1rem'
-              }>3</div>
-              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Execution</h3>
-              <p style={ color: 'var(--text-secondary)' }>
+               }}>3</div>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem'  }}>Execution</h3>
+              <p style={{ color: 'var(--text-secondary)'  }}>
                 Our team brings the plan to life with precision and creativity.
               </p>
             </div>
-            <div style={ textAlign: 'center' }>
-              <div style={ 
-                width: '80px', 
+            <div style={{ textAlign: 'center'  }}>
+              <div style={{ width: '80px', 
                 height: '80px', 
                 borderRadius: '50%', 
                 background: '#374151', 
@@ -201,9 +196,9 @@ export default function SentinelSecurityPage() {
                 fontSize: '2rem',
                 fontWeight: 'bold',
                 margin: '0 auto 1rem'
-              }>4</div>
-              <h3 style={ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem' }>Delivery</h3>
-              <p style={ color: 'var(--text-secondary)' }>
+               }}>4</div>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', marginBottom: '0.5rem'  }}>Delivery</h3>
+              <p style={{ color: 'var(--text-secondary)'  }}>
                 We deliver exceptional results with ongoing support and optimization.
               </p>
             </div>
@@ -246,7 +241,7 @@ export default function SentinelSecurityPage() {
     </div>
           <div style={{ display: "flex", gap: 28, alignItems: "center" }}>
             {["Services", "Operations", "Team", "Contact"].map((item) => (
-              <a key={item} href={`#${item.toLowerCase()}`} style={{ color: "var(--text-secondary)", fontSize: "0.7rem", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none", transition: "color 0.3s" }}>
+              <a key={item} href={'#${item.toLowerCase()}'} style={{ color: "var(--text-secondary)", fontSize: "0.7rem", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none", transition: "color 0.3s" }}>
                 {item}
               </a>
             ))}
@@ -434,11 +429,11 @@ export default function SentinelSecurityPage() {
     </div>
               <div style={{ display: "flex", flexDirection: "column", gap: 8, maxHeight: 260, overflow: "hidden" }}>
                 {THREAT_FEED.map((feed, i) => (
-                  <div key={i} style={{
+                  <div key={i} style={{ 
                     padding: "8px 12px",
                     borderRadius: 4,
                     background: feed.level === "critical" ? "rgba(255,23,68,0.1)" : feed.level === "warning" ? "rgba(255,193,7,0.08)" : "rgba(255,255,255,0.03)",
-                    borderLeft: `3px solid ${feed.level === "critical" ? "#ff1744" : feed.level === "warning" ? "#ffc107" : "var(--neon)"}`,
+                    borderLeft: '3px solid ${feed.level === "critical" ? "#ff1744" : feed.level === "warning" ? "#ffc107" : "var(--neon)" }}',
                     opacity: i <= activeFeed ? 1 : 0.3,
                     transition: "opacity 0.5s"
                   }}>
@@ -591,7 +586,7 @@ export default function SentinelSecurityPage() {
       <div style={{ background: "var(--dark-surface)", borderTop: "1px solid var(--dark-border)", borderBottom: "1px solid var(--dark-border)", padding: "32px 0" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px", display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 24, textAlign: "center" }}>
           {SECURITY_STATS.map((s, i) => (
-            <div key={i} className="reveal" style={{ transitionDelay: `${i * 0.1}s` }}>
+            <div key={i} className="reveal" style={{  transitionDelay: '${i * 0.1 }}s' }}>
               <div className="stat-number">{s.num}
       <section className="section reveal">
         <div className="container" style={{ maxWidth: '800px' }}>
@@ -759,13 +754,13 @@ export default function SentinelSecurityPage() {
     </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
           {SERVICES.map((svc, i) => (
-            <div key={i} className="card reveal" style={{
+            <div key={i} className="card reveal" style={{ 
               display: "grid",
               gridTemplateColumns: i % 2 === 0 ? "340px 1fr" : "1fr 340px",
               gap: 32,
               alignItems: "center",
               padding: "2rem",
-              transitionDelay: `${i * 0.08}s`
+              transitionDelay: '${i * 0.08 }}s'
             }}>
               <div style={{ order: i % 2 === 0 ? 1 : 2 }}>
                 <div className="img-hover" style={{ height: 240 }}>
@@ -995,7 +990,7 @@ export default function SentinelSecurityPage() {
               <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridTemplateRows: "repeat(2, 1fr)", gap: 6 }}>
                 {[1, 2, 3, 4, 5, 6].map((n) => (
                   <div key={n} style={{ background: "rgba(0,212,255,0.04)", borderRadius: 4, border: "1px solid rgba(0,212,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                    <img src={`https://images.unsplash.com/photo-1557599000000?w=200&h=150&fit=crop`} alt={`Camera ${n}`} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 4, opacity: 0.9 }} />
+                    <img src={'https://images.unsplash.com/photo-1557599000000?w=200&h=150&fit=crop'} alt={'Camera ${n}'} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 4, opacity: 0.9 }} />
                     <span style={{ position: "absolute", top: 4, left: 6, fontSize: "0.55rem", color: "#00ff88", fontFamily: "monospace" }}>CAM-{String(n).padStart(2, "0")}</span>
                     <span style={{ position: "absolute", top: 4, right: 6, width: 6, height: 6, borderRadius: "50%", background: "#00ff88" }}></span>
                   
@@ -2033,28 +2028,26 @@ export default function SentinelSecurityPage() {
 
       {/* Footer */}
       
-      <section className="section reveal" style={ 
-        background: `linear-gradient(135deg, #374151, #374151dd)`,
+      <section className="section reveal" style={{  background: 'linear-gradient(135deg, #374151, #374151dd)',
         color: 'white',
         textAlign: 'center'
-      }>
+       }}>
         <div className="container">
-          <h2 style={ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem' }>
+          <h2 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '1rem'  }}>
             Ready to Transform Your Business?
           </h2>
-          <p style={ 
-            fontSize: '1.25rem', 
+          <p style={{ fontSize: '1.25rem', 
             opacity: 0.9,
             maxWidth: '600px',
             margin: '0 auto 2.5rem'
-          }>
+           }}>
             Join hundreds of satisfied clients who have achieved remarkable results with our security services solutions.
           </p>
-          <div style={ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }>
-            <button className="btn-primary btn-lg" style={ background: 'white', color: '#374151' }>
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap'  }}>
+            <button className="btn-primary btn-lg" style={{  background: 'white', color: '#374151'  }}>
               Start Your Project Today
             </button>
-            <button className="btn-secondary btn-lg" style={ borderColor: 'white', color: 'white' }>
+            <button className="btn-secondary btn-lg" style={{ borderColor: 'white', color: 'white'  }}>
               Schedule a Call
             </button>
           </div>
@@ -2266,12 +2259,12 @@ export default function SentinelSecurityPage() {
     </div>
       </footer>
 
-      <style>{`
+      <style>{'
         @keyframes dot-pulse {
           0%, 100% { opacity: 1; }
           50% { opacity: '0.9'; }
         }
-      `}</style>
+      '}</style>
     
       <section className="section reveal">
         <div className="container" style={{ maxWidth: '800px' }}>

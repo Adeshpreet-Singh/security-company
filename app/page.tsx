@@ -249,7 +249,7 @@ export default function SentinelSecurityPage() {
               <div style={{ flex: 1, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridTemplateRows: "repeat(2, 1fr)", gap: 6 }}>
                 {[1, 2, 3, 4, 5, 6].map((n) => (
                   <div key={n} style={{ background: "rgba(0,212,255,0.04)", borderRadius: 4, border: "1px solid rgba(0,212,255,0.1)", display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
-                    <img src={`https://images.unsplash.com/photo-${15575977749d2 + n * 1000}-9d273605dfa9?w=200&h=150&fit=crop`} alt={`Camera ${n}`} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 4, opacity: '0.9' }} />
+                    <img src={`https://images.unsplash.com/photo-1557599000000?w=200&h=150&fit=crop`} alt={`Camera ${n}`} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: 4, opacity: 0.9 }} />
                     <span style={{ position: "absolute", top: 4, left: 6, fontSize: "0.55rem", color: "#00ff88", fontFamily: "monospace" }}>CAM-{String(n).padStart(2, "0")}</span>
                     <span style={{ position: "absolute", top: 4, right: 6, width: 6, height: 6, borderRadius: "50%", background: "#00ff88" }}></span>
                   </div>

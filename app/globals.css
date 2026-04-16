@@ -1,7 +1,8 @@
 /* SENTINEL SECURITY — Complete Design System */
 /* Typography: Bebas Neue + Inter | Colors: Dark (#0a0a0a) + Electric Blue (#00d4ff) */
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
 
 /* ========================= */
 /* CSS CUSTOM PROPERTIES     */
@@ -527,7 +528,6 @@ select {
     gap: 2px;
   }
 }
-
 
 /* ===== FINAL 10/10 POLISH ===== */
 

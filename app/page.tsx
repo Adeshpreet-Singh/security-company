@@ -241,7 +241,7 @@ export default function SentinelSecurityPage() {
     </div>
           <div style={{ display: "flex", gap: 28, alignItems: "center" }}>
             {["Services", "Operations", "Team", "Contact"].map((item) => (
-              <a key={item} href={'#${item.toLowerCase()}'} style={{ color: "var(--text-secondary)", fontSize: "0.7rem", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none", transition: "color 0.3s" }}>
+              <a key={item} href={'#${item.toLowerCase(})}'} style={{ color: "var(--text-secondary)", fontSize: "0.7rem", letterSpacing: "0.15em", textTransform: "uppercase", textDecoration: "none", transition: "color 0.3s" }}>
                 {item}
               </a>
             ))}
@@ -433,7 +433,7 @@ export default function SentinelSecurityPage() {
                     padding: "8px 12px",
                     borderRadius: 4,
                     background: feed.level === "critical" ? "rgba(255,23,68,0.1)" : feed.level === "warning" ? "rgba(255,193,7,0.08)" : "rgba(255,255,255,0.03)",
-                    borderLeft: '3px solid ${feed.level === "critical" ? "#ff1744" : feed.level === "warning" ? "#ffc107" : "var(--neon)" }}',
+                    borderLeft: '3px solid ${feed.level === "critical" ? "#ff1744" : feed.level === "warning" ? "#ffc107" : "var(--neon)"} }}',
                     opacity: i <= activeFeed ? 1 : 0.3,
                     transition: "opacity 0.5s"
                   }}>
@@ -586,7 +586,7 @@ export default function SentinelSecurityPage() {
       <div style={{ background: "var(--dark-surface)", borderTop: "1px solid var(--dark-border)", borderBottom: "1px solid var(--dark-border)", padding: "32px 0" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px", display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 24, textAlign: "center" }}>
           {SECURITY_STATS.map((s, i) => (
-            <div key={i} className="reveal" style={{  transitionDelay: '${i * 0.1 }}s' }}>
+            <div key={i} className="reveal" style={{  transitionDelay: `${i * 0.1} }}s` }}>
               <div className="stat-number">{s.num}
       <section className="section reveal">
         <div className="container" style={{ maxWidth: '800px' }}>
@@ -760,7 +760,7 @@ export default function SentinelSecurityPage() {
               gap: 32,
               alignItems: "center",
               padding: "2rem",
-              transitionDelay: '${i * 0.08 }}s'
+              transitionDelay: '${i * 0.08} }}s'
             }}>
               <div style={{ order: i % 2 === 0 ? 1 : 2 }}>
                 <div className="img-hover" style={{ height: 240 }}>

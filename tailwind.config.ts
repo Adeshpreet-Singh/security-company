@@ -16,7 +16,7 @@ export default {
           card: '#141414',
           border: '#1e1e1e',
         },
-        'slate-text': '#a0a0a0',
+        'slate-text': '#b0b0b0',
       },
       fontFamily: {
         heading: ['Bebas Neue', 'Impact', 'sans-serif'],

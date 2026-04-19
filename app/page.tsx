@@ -76,17 +76,17 @@ export default function Home() {
  <span className="text-[9px] text-neon tracking-widest block">SECURITY</span>
  </div>
  </div>
- <div className="hidden md:flex items-center gap-8">
- {['Services', 'About', 'Reviews', 'Contact'].map(item => (
- <button key={item} onClick={() => scrollToSection(item.toLowerCase())} aria-label={`Navigate to ${item} section`} className="text-sm text-slate-text hover:text-neon transition-colors focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2 rounded">
- {item}
- </button>
- ))}
- <button onClick={() => scrollToSection('contact')} aria-label="Get a free security assessment" className="bg-neon text-dark px-6 py-2.5 rounded-full text-sm font-bold hover:bg-neon-dim transition-colors focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2">
- Free Assessment
- </button>
- </div>
- <button aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} className="md:hidden text-neon focus-visible:outline-2 focus-visible:outline-neon rounded" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="hidden md:flex items-center gap-6">
+          {['Services', 'About', 'Reviews', 'Contact'].map(item => (
+            <button key={item} onClick={() => scrollToSection(item.toLowerCase())} aria-label={`Navigate to ${item} section`} className="text-sm text-slate-text hover:text-neon transition-colors focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2 rounded px-3 py-2 min-h-[44px] flex items-center">
+              {item}
+            </button>
+          ))}
+          <button onClick={() => scrollToSection('contact')} aria-label="Get a free security assessment" className="bg-neon text-dark px-6 py-3 rounded-full text-sm font-bold hover:bg-neon-dim transition-colors focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2 min-h-[44px]">
+            Free Assessment
+          </button>
+        </div>
+        <button aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} className="md:hidden text-neon focus-visible:outline-2 focus-visible:outline-neon rounded p-2 min-w-[44px] min-h-[44px] flex items-center justify-center" onClick={() => setMenuOpen(!menuOpen)}>
  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
  {menuOpen ? (
  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -97,16 +97,16 @@ export default function Home() {
  </button>
  </div>
  {menuOpen && (
- <div className="md:hidden glass border-t border-dark-border px-6 py-4 space-y-4">
- {['Services', 'About', 'Reviews', 'Contact'].map(item => (
- <button key={item} onClick={() => scrollToSection(item.toLowerCase())} className="block w-full text-left text-slate-text hover:text-neon py-2">
- {item}
- </button>
- ))}
- <button onClick={() => scrollToSection('contact')} className="w-full bg-neon text-dark px-6 py-3 rounded-full font-bold">
- Free Assessment
- </button>
- </div>
+        <div className="md:hidden glass border-t border-dark-border px-6 py-4 space-y-2">
+          {['Services', 'About', 'Reviews', 'Contact'].map(item => (
+            <button key={item} onClick={() => scrollToSection(item.toLowerCase())} className="mobile-nav-item block w-full text-left text-slate-text hover:text-neon py-3 px-3 rounded-lg hover:bg-white/5 transition-colors text-base">
+              {item}
+            </button>
+          ))}
+          <button onClick={() => scrollToSection('contact')} className="w-full bg-neon text-dark px-6 py-4 rounded-full font-bold text-base min-h-[48px]">
+            Free Assessment
+          </button>
+        </div>
  )}
  </nav>
  </header>
@@ -121,31 +121,31 @@ export default function Home() {
  <div className="relative max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
  <div>
  <p className="text-neon text-sm font-bold tracking-widest mb-4 animate-fade-in-up">24/7 PROTECTION SERVICES</p>
- <h2 id="hero-heading" className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white animate-fade-in-up stagger-1">
+              <h2 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-white animate-fade-in-up stagger-1">
  Your Safety.<br /><span className="text-neon neon-text">Our Mission.</span>
  </h2>
  <p className="text-xl text-slate-text mb-8 max-w-lg animate-fade-in-up stagger-2">
  Comprehensive security solutions for homes, businesses, and events. Licensed professionals, cutting-edge technology, unwavering commitment.
  </p>
- <div className="flex flex-wrap gap-4 mb-10 animate-fade-in-up stagger-3">
- <button onClick={() => scrollToSection('contact')} aria-label="Get your free security assessment" className="bg-neon text-dark px-8 py-4 rounded-full text-lg font-bold hover:bg-neon-dim transition-all hover:scale-105 neon-glow focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2">
- Free Assessment
- </button>
- <a href="tel:+15558907233" aria-label="Call for immediate security response" className="border-2 border-neon/50 text-neon px-8 py-4 rounded-full text-lg font-bold hover:bg-neon/10 transition-all hover:scale-105 focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2">
- 24/7 Response
- </a>
- </div>
- <div className="flex items-center gap-8">
- {[
- { num: '5K+', label: 'Clients Protected' },
- { num: '99.9%', label: 'Uptime Rate' },
- { num: '24/7', label: 'Monitoring' },
- ].map((s, i) => (
- <div key={i}>
- <div className="text-2xl font-bold text-neon">{s.num}</div>
- <div className="text-sm text-slate-text">{s.label}</div>
- </div>
- ))}
+            <div className="flex flex-wrap gap-4 mb-10 animate-fade-in-up stagger-3">
+              <button onClick={() => scrollToSection('contact')} aria-label="Get your free security assessment" className="bg-neon text-dark px-8 py-4 rounded-full text-lg font-bold hover:bg-neon-dim transition-all hover:scale-105 neon-glow focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2 min-h-[48px]">
+                Free Assessment
+              </button>
+              <a href="tel:+155****7233" aria-label="Call for immediate security response" className="border-2 border-neon/50 text-neon px-8 py-4 rounded-full text-lg font-bold hover:bg-neon/10 transition-all hover:scale-105 focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2 min-h-[48px] flex items-center">
+                24/7 Response
+              </a>
+            </div>
+            <div className="flex items-center gap-6 sm:gap-8 flex-wrap">
+              {[
+                { num: '5K+', label: 'Clients Protected' },
+                { num: '99.9%', label: 'Uptime Rate' },
+                { num: '24/7', label: 'Monitoring' },
+              ].map((s, i) => (
+                <div key={i}>
+                  <div className="text-xl sm:text-2xl font-bold text-neon">{s.num}</div>
+                  <div className="text-sm text-slate-text">{s.label}</div>
+                </div>
+              ))}
  </div>
  </div>
  <div className="relative">
@@ -359,9 +359,9 @@ export default function Home() {
  </div>
  )}
 
- <button type="submit" disabled={formStatus === 'sending'} aria-label="Request your free security assessment" className="w-full bg-neon text-dark py-4 rounded-xl font-bold hover:bg-neon-dim transition-all hover:scale-[1.02] neon-glow focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2 disabled:opacity-50 disabled:cursor-not-allowed">
- {formStatus === 'sending' ? 'Sending...' : 'Get Free Assessment'}
- </button>
+            <button type="submit" disabled={formStatus === 'sending'} aria-label="Request your free security assessment" className="w-full bg-neon text-dark py-4 rounded-xl font-bold hover:bg-neon-dim transition-all hover:scale-[1.02] neon-glow focus-visible:outline-2 focus-visible:outline-neon focus-visible:outline-offset-2 disabled:opacity-50 disabled:cursor-not-allowed min-h-[52px] text-base">
+              {formStatus === 'sending' ? 'Sending...' : 'Get Free Assessment'}
+            </button>
  </form>
  </div>
  </div>
@@ -372,17 +372,17 @@ export default function Home() {
  <div className="max-w-4xl mx-auto px-6 text-center">
  <h2 id="cta-heading" className="text-4xl font-bold text-white mb-4">Ready to Get Protected?</h2>
  <p className="text-slate-text text-lg mb-8">Don&apos;t wait for an incident to happen. Get your free security assessment today and sleep better tonight.</p>
- <div className="flex flex-wrap gap-4 justify-center">
- <button onClick={() => scrollToSection('contact')} className="bg-neon text-dark px-8 py-4 rounded-full text-lg font-bold hover:bg-neon-dim transition-all hover:scale-105 neon-glow">
- Get Free Assessment
- </button>
- <a href="tel:+15558907233" className="border-2 border-neon/50 text-neon px-8 py-4 rounded-full text-lg font-bold hover:bg-neon/10 transition-all hover:scale-105">
- Call (555) 890-SAFE
- </a>
- <a href="https://wa.me/15558907233" target="_blank" rel="noopener noreferrer" className="border-2 border-green-500/50 text-green-400 px-8 py-4 rounded-full text-lg font-bold hover:bg-green-500/10 transition-all hover:scale-105">
- WhatsApp Us
- </a>
- </div>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <button onClick={() => scrollToSection('contact')} className="bg-neon text-dark px-8 py-4 rounded-full text-lg font-bold hover:bg-neon-dim transition-all hover:scale-105 neon-glow min-h-[48px]">
+              Get Free Assessment
+            </button>
+            <a href="tel:+155****7233" className="border-2 border-neon/50 text-neon px-8 py-4 rounded-full text-lg font-bold hover:bg-neon/10 transition-all hover:scale-105 min-h-[48px] flex items-center">
+              Call (555) 890-SAFE
+            </a>
+            <a href="https://wa.me/15558907233" target="_blank" rel="noopener noreferrer" className="border-2 border-green-500/50 text-green-400 px-8 py-4 rounded-full text-lg font-bold hover:bg-green-500/10 transition-all hover:scale-105 min-h-[48px] flex items-center">
+              WhatsApp Us
+            </a>
+          </div>
  </div>
  </section>
 

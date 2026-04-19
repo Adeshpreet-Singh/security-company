@@ -46,3 +46,16 @@
 - [FIX] Mobile overflow - cleaned up conflicting CSS rules that broke responsive layout
 - [FIX] Mobile readability - hero heading uses responsive text-4xl/sm:text-5xl/md:text-6xl
 - [FIX] Mobile layout - stats section uses flex-wrap and responsive gaps
+
+## Review Fixes v2 (Final)
+- [FIX] Added missing `white-soft` color (#e0e0e0) to Tailwind config - was used but undefined
+- [FIX] Improved glass background opacity from 0.8 to 0.92 for better nav/card visibility
+- [FIX] Improved text contrast: slate-text #b0b0b0 -> #c8c8c8, text-muted #555555 -> #777777
+- [FIX] Fixed heading line-height from 1.05 to 1.15 for better readability
+- [FIX] Removed broken `[class*="-card"]` CSS selector that conflicted with Tailwind bg-dark-card
+- [FIX] Disabled hover lift transforms on mobile (<=768px) to prevent sticky hover state
+- [FIX] Added `py-1 block` to all footer links for larger touch targets
+- [FIX] Changed hero heading from h2 to h1 for proper semantic hierarchy
+- [FIX] Added width/height attributes to images for CLS optimization
+- [FIX] Added loading="lazy" to below-fold image
+- [FIX] Consolidated duplicate responsive CSS media query blocks

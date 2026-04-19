@@ -121,9 +121,9 @@ export default function Home() {
  <div className="relative max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
  <div>
  <p className="text-neon text-sm font-bold tracking-widest mb-4 animate-fade-in-up">24/7 PROTECTION SERVICES</p>
-              <h2 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-white animate-fade-in-up stagger-1">
+              <h1 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-white animate-fade-in-up stagger-1">
  Your Safety.<br /><span className="text-neon neon-text">Our Mission.</span>
- </h2>
+ </h1>
  <p className="text-xl text-slate-text mb-8 max-w-lg animate-fade-in-up stagger-2">
  Comprehensive security solutions for homes, businesses, and events. Licensed professionals, cutting-edge technology, unwavering commitment.
  </p>
@@ -150,7 +150,7 @@ export default function Home() {
  </div>
  <div className="relative">
  <div className="glass rounded-3xl p-8 neon-glow">
- <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80" alt="Professional security monitoring center" className="w-full rounded-2xl opacity-90" />
+ <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&q=80" alt="Professional security monitoring center" width={600} height={400} className="w-full rounded-2xl opacity-90" />
  </div>
  </div>
  </div>
@@ -184,7 +184,7 @@ export default function Home() {
  </div>
  <div className="relative max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
  <div className="glass rounded-3xl p-8">
- <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80" alt="Sentinel Security professional team" className="w-full rounded-2xl opacity-90" />
+ <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80" alt="Sentinel Security professional team" width={600} height={400} loading="lazy" className="w-full rounded-2xl opacity-90" />
  </div>
  <div>
  <p className="text-neon text-sm font-bold tracking-widest mb-4">WHY SENTINEL</p>
@@ -437,31 +437,31 @@ export default function Home() {
  </div>
  <div>
  <h4 className="text-white font-bold mb-4">Services</h4>
- <ul className="space-y-2 text-sm text-slate-text">
- <li><a href="#services" className="hover:text-neon transition-colors">Security Guards</a></li>
- <li><a href="#services" className="hover:text-neon transition-colors">Surveillance Systems</a></li>
- <li><a href="#services" className="hover:text-neon transition-colors">Alarm Systems</a></li>
- <li><a href="#services" className="hover:text-neon transition-colors">Access Control</a></li>
- <li><a href="#services" className="hover:text-neon transition-colors">Cyber Security</a></li>
- <li><a href="#services" className="hover:text-neon transition-colors">Consulting</a></li>
- </ul>
+<ul className="space-y-2 text-sm text-slate-text">
+<li><a href="#services" className="hover:text-neon transition-colors py-1 block">Security Guards</a></li>
+<li><a href="#services" className="hover:text-neon transition-colors py-1 block">Surveillance Systems</a></li>
+<li><a href="#services" className="hover:text-neon transition-colors py-1 block">Alarm Systems</a></li>
+<li><a href="#services" className="hover:text-neon transition-colors py-1 block">Access Control</a></li>
+<li><a href="#services" className="hover:text-neon transition-colors py-1 block">Cyber Security</a></li>
+<li><a href="#services" className="hover:text-neon transition-colors py-1 block">Consulting</a></li>
+</ul>
  </div>
  <div>
- <h4 className="text-white font-bold mb-4">Company</h4>
- <ul className="space-y-2 text-sm text-slate-text">
- <li><a href="#about" className="hover:text-neon transition-colors">About Us</a></li>
- <li><a href="#reviews" className="hover:text-neon transition-colors">Testimonials</a></li>
- <li><a href="#contact" className="hover:text-neon transition-colors">Contact</a></li>
- <li><a href="mailto:careers@sentinelsecurity.com" className="hover:text-neon transition-colors">Careers</a></li>
- </ul>
+<h4 className="text-white font-bold mb-4">Company</h4>
+<ul className="space-y-2 text-sm text-slate-text">
+<li><a href="#about" className="hover:text-neon transition-colors py-1 block">About Us</a></li>
+<li><a href="#reviews" className="hover:text-neon transition-colors py-1 block">Testimonials</a></li>
+<li><a href="#contact" className="hover:text-neon transition-colors py-1 block">Contact</a></li>
+<li><a href="mailto:careers@sentinelsecurity.com" className="hover:text-neon transition-colors py-1 block">Careers</a></li>
+</ul>
  </div>
  <div>
- <h4 className="text-white font-bold mb-4">Contact</h4>
- <ul className="space-y-2 text-sm text-slate-text">
- <li><a href="tel:+15558907233" className="hover:text-neon transition-colors">(555) 890-SAFE</a></li>
- <li><a href="mailto:info@sentinelsecurity.com" className="hover:text-neon transition-colors">info@sentinelsecurity.com</a></li>
- <li><a href="https://maps.google.com/?q=500+Security+Blvd+Los+Angeles+CA+90001" target="_blank" rel="noopener noreferrer" className="hover:text-neon transition-colors">500 Security Blvd<br />Los Angeles, CA 90001</a></li>
- </ul>
+<h4 className="text-white font-bold mb-4">Contact</h4>
+<ul className="space-y-2 text-sm text-slate-text">
+<li><a href="tel:+155****7233" className="hover:text-neon transition-colors py-1 block">(555) 890-SAFE</a></li>
+<li><a href="mailto:info@sentinelsecurity.com" className="hover:text-neon transition-colors py-1 block">info@sentinelsecurity.com</a></li>
+<li><a href="https://maps.google.com/?q=500+Security+Blvd+Los+Angeles+CA+90001" target="_blank" rel="noopener noreferrer" className="hover:text-neon transition-colors py-1 block">500 Security Blvd<br />Los Angeles, CA 90001</a></li>
+</ul>
  </div>
  </div>
  <div className="pt-8 border-t border-dark-border text-center">
